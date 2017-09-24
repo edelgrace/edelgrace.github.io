@@ -1,2 +1,0 @@
-# edelgrace.github.io
-*~

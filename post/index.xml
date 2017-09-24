@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on edelgrace</title>
-    <link>http://edelgrace.github.io/post/</link>
+    <link>https://edelgrace.github.io/post/</link>
     <description>Recent content in Posts on edelgrace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Sep 2017 20:59:19 -0600</lastBuildDate>
     
-	<atom:link href="http://edelgrace.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://edelgrace.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World (Hugo)</title>
-      <link>http://edelgrace.github.io/2017/09/hello-world-i-mean-hugo/</link>
+      <link>https://edelgrace.github.io/2017/09/hello-world-i-mean-hugo/</link>
       <pubDate>Sat, 23 Sep 2017 20:59:19 -0600</pubDate>
       
-      <guid>http://edelgrace.github.io/2017/09/hello-world-i-mean-hugo/</guid>
+      <guid>https://edelgrace.github.io/2017/09/hello-world-i-mean-hugo/</guid>
       <description>I&amp;rsquo;ve been tinkering with Hugo lately. A couple of weeks ago, I exported my old Wordpress blog into Hugo. While I am happy with the results, it&amp;rsquo;s taking me a bit of time to go through each of my posts (of which there are hundreds of) and update the metadata. I&amp;rsquo;m quite tempted to leave it as is but I enjoy consistency.
 So here I am. A new portfolio. A technically new site.</description>
     </item>

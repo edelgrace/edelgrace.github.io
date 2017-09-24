@@ -13,10 +13,10 @@
     
     <item>
       <title>Hello World (Hugo)</title>
-      <link>https://edelgrace.github.io/2017/09/hello-world-i-mean-hugo/</link>
+      <link>https://edelgrace.github.io/hello-world-i-mean-hugo/</link>
       <pubDate>Sat, 23 Sep 2017 20:59:19 -0600</pubDate>
       
-      <guid>https://edelgrace.github.io/2017/09/hello-world-i-mean-hugo/</guid>
+      <guid>https://edelgrace.github.io/hello-world-i-mean-hugo/</guid>
       <description>I&amp;rsquo;ve been tinkering with Hugo lately. A couple of weeks ago, I exported my old Wordpress blog into Hugo. While I am happy with the results, it&amp;rsquo;s taking me a bit of time to go through each of my posts (of which there are hundreds of) and update the metadata. I&amp;rsquo;m quite tempted to leave it as is but I enjoy consistency.
 So here I am. A new portfolio. A technically new site.</description>
     </item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on edelgrace</title>
+    <link>https://edelgrace.github.io/project/</link>
+    <description>Recent content in Projects on edelgrace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Sep 2017 23:25:12 -0600</lastBuildDate>
+    
+	<atom:link href="https://edelgrace.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hungry Turtle</title>
+      <link>https://edelgrace.github.io/project/hungry-turtle/</link>
+      <pubDate>Sat, 23 Sep 2017 23:25:12 -0600</pubDate>
+      
+      <guid>https://edelgrace.github.io/project/hungry-turtle/</guid>
+      <description>This is Hungry Turtle.</description>
+    </item>
+    
+  </channel>
+</rss>

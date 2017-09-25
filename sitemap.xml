@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://edelgrace.github.io/productive-distractions/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://edelgrace.github.io/project/kowthers-turtle-button/</loc>
     <lastmod>2017-09-23T23:25:12-06:00</lastmod>
   </url>
@@ -23,8 +28,44 @@
   </url>
   
   <url>
+    <loc>https://edelgrace.github.io/categories/crafts/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edelgrace.github.io/tags/crochet/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edelgrace.github.io/categories/friends-and-family/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edelgrace.github.io/tags/knit/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://edelgrace.github.io/post/</loc>
-    <lastmod>2017-09-23T20:59:19-06:00</lastmod>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edelgrace.github.io/tags/productive-distraction/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edelgrace.github.io/tags/productivity/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,12 +77,19 @@
   
   <url>
     <loc>https://edelgrace.github.io/tags/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edelgrace.github.io/categories/tech/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://edelgrace.github.io/</loc>
-    <lastmod>2017-09-23T23:25:12-06:00</lastmod>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
     <priority>0</priority>
   </url>
   

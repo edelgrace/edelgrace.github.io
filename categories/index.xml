@@ -10,5 +10,32 @@
 	<atom:link href="https://edelgrace.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Crafts</title>
+      <link>https://edelgrace.github.io/categories/crafts/</link>
+      <pubDate>Sun, 24 Sep 2017 19:06:29 -0600</pubDate>
+      
+      <guid>https://edelgrace.github.io/categories/crafts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Friends and Family</title>
+      <link>https://edelgrace.github.io/categories/friends-and-family/</link>
+      <pubDate>Sun, 24 Sep 2017 19:06:29 -0600</pubDate>
+      
+      <guid>https://edelgrace.github.io/categories/friends-and-family/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://edelgrace.github.io/categories/tech/</link>
+      <pubDate>Sun, 24 Sep 2017 19:06:29 -0600</pubDate>
+      
+      <guid>https://edelgrace.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

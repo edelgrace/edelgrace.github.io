@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://edelgrace.github.io/productive-distractions/</loc>
+    <loc>https://edelgrace.github.io/blog/productive-distractions/</loc>
     <lastmod>2017-09-24T19:06:29-06:00</lastmod>
   </url>
   
@@ -13,12 +13,18 @@
   </url>
   
   <url>
-    <loc>https://edelgrace.github.io/hello-world-i-mean-hugo/</loc>
+    <loc>https://edelgrace.github.io/blog/hello-world-i-mean-hugo/</loc>
     <lastmod>2017-09-23T20:59:19-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://edelgrace.github.io/archives/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edelgrace.github.io/blog/</loc>
+    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,12 +53,6 @@
   
   <url>
     <loc>https://edelgrace.github.io/tags/knit/</loc>
-    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://edelgrace.github.io/post/</loc>
     <lastmod>2017-09-24T19:06:29-06:00</lastmod>
     <priority>0</priority>
   </url>

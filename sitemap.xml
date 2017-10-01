@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://edelgrace.github.io/blog/wip-wednesday-outline-ribbed-scarf/</loc>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://edelgrace.github.io/blog/productive-distractions/</loc>
     <lastmod>2017-09-24T19:06:29-06:00</lastmod>
   </url>
@@ -741,7 +746,7 @@
   
   <url>
     <loc>https://edelgrace.github.io/blog/</loc>
-    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -801,13 +806,13 @@
   
   <url>
     <loc>https://edelgrace.github.io/categories/crafts/</loc>
-    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://edelgrace.github.io/tags/crochet/</loc>
-    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1100,6 +1105,12 @@
   </url>
   
   <url>
+    <loc>https://edelgrace.github.io/tags/warframe/</loc>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://edelgrace.github.io/tags/web-comics/</loc>
     <lastmod>2016-02-19T01:40:18+00:00</lastmod>
     <priority>0</priority>
@@ -1143,7 +1154,7 @@
   
   <url>
     <loc>https://edelgrace.github.io/</loc>
-    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

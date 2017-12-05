@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="map[]" />
+    <meta name="description" content="Here you can keep up with all of the various things I do.">
+    <link rel="shortcut icon" type="image/x-icon" href="https://edelgrace.github.io/img/favicon.ico">
+    <title>Udacity Programming Fundamental Lesson 5: Take a Break Mini-Project</title>
+    <meta name="generator" content="Hugo 0.26" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://edelgrace.github.io/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://edelgrace.github.io/"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/"></a></li>
+        
+        <li><a href="/project/">PROJECTS</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="https://edelgrace.github.io/programming/udacity-programming-fundamental-lesson-5-take-a-break-mini-project/">Udacity Programming Fundamental Lesson 5: Take a Break Mini-Project</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          July 8, 2017
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              <p>Seeing that I am now unemployed and have a lot of time on my hands, I decided to utilize the free month of <a href="https://udacity.com">Udacity</a> I received from Github&rsquo;s <a href="http://education.github.com/pack">Student Pack</a>.</p>
+
+<p>This mini-project&rsquo;s goal is to create a simple program using Python to open a web browser at an interval of ten seconds three times in a row.</p>
+
+<p>Here is my answer:</p>
+
+<p>`</p>
+<pre>import time
+import webbrowser</p>
+
+<p>break_duration = 10
+break_num = 3
+break_count = 0</p>
+
+<p>print(&ldquo;This program started at: &ldquo; + time.ctime())</p>
+
+<p>while(break_count &lt; break_num):</p>
+
+<pre><code>time.sleep(break_duration)
+
+webbrowser.open(&quot;http://edelgrace.me/blog&quot;)
+
+break_count += 1&lt;/pre&gt;
+</code></pre>
+
+<p><p>`</p>
+
+<p>First I will explain the first two lines. In Python, there are many different modules that you can utilize to achieve specific things. Think of them as apps that you use on your phone. You have apps for calendars, contacts, games, social media, etc. Just like apps, we don&rsquo;t really need to know how exactly modules works, just how to use them to get what we want. In this case, we use modules to get information about the time and to use the web browser on the computer.</p>
+
+<p><code>&lt;/p&gt;
+&lt;pre&gt;import time
+import webbrowser&lt;/pre&gt;
+&lt;p&gt;</code></p>
+
+<p>Next, I initialize some variables. Think of this as giving something a name. For example, I am 22 years old as of writing this. This would be my age. In the code, I am declaring that the <code>break_duration</code> (how long to wait to open a web browser) is 10 seconds. The <code>break_num</code> determines how many breaks to take, which is 3. Lastly, the number of breaks taken so far, <code>break_count</code>, is 0.</p>
+
+<p><code>&lt;/p&gt;
+&lt;pre&gt;break_duration = 10
+break_num = 3
+break_count = 0&lt;/pre&gt;
+&lt;p&gt;</code></p>
+
+<p>This line will print out a message to the console with the <code>print</code> function. Inside print, it uses a function from the <code>time</code> module that we imported earlier. The function we use is <code>ctime()</code>, which grabs the value of the current time.</p>
+
+<p><code>&lt;/p&gt;
+&lt;pre&gt;print(&quot;This program started at: &quot; + time.ctime())&gt;&lt;/pre&gt;
+&lt;p&gt;</code></p>
+
+<p>The last chunk of code is a <code>while</code> loop. Think of while loops as a set of instructions to repeat until a condition is met. I will break this down line by line.</p>
+
+<p>`</p>
+<pre>while(break_count &lt; break_num):</p>
+
+<pre><code>time.sleep(break_duration)
+
+webbrowser.open(&quot;http://edelgrace.me/blog&quot;)
+
+break_count += 1&lt;/pre&gt;
+</code></pre>
+
+<p><p>`</p>
+
+<p>The first line determines the condition. This loop will keep running as long as the number of breaks taken (<code>break_count</code>) is less than the number of breaks that should be taken (<code>break_num</code>, which is 3). When this condition is not met, the code inside the while loop will stop running.</p>
+
+<p><code>&lt;/p&gt;
+&lt;pre&gt;while(break_count &lt; break_num):&lt;/pre&gt;
+&lt;p&gt;</code></p>
+
+<p>Then we use the function <code>time.sleep()</code> to essentially wait for the number of seconds and essentially do nothing. From the official Python documentation, we can see that this function will accept numbers in terms of seconds, which is what we are using in <code>break_duration</code>.</p>
+
+<p><code>&lt;/p&gt;
+&lt;pre&gt;time.sleep(break_duration)&lt;/pre&gt;
+&lt;p&gt;</code></p>
+
+<p>Once the 10 seconds has elapsed, the next line of code will run. This uses the <code>webbrowser.open()</code> function. It essentially does what it says: open a web browser. Here, we indicate which site to open. In my case, we open up my blog for a quick break. 🙂</p>
+
+<p><code>&lt;/p&gt;
+&lt;pre&gt;webbrowser.open(&quot;http://edelgrace.me/blog&quot;)&lt;/pre&gt;
+&lt;p&gt;</code></p>
+
+<p>After that is all done, we have finished a break. Therefore, we increase the variable <code>break_num</code> by one to indicate that a break has been finished.</p>
+
+<p><code>&lt;/p&gt;
+&lt;pre&gt;break_count += 1&lt;/pre&gt;
+&lt;p&gt;</code></p>
+
+<p>The code then goes back to the start of the while loop and checks the condition. <code>break_count</code> is now 0+1=1 which is still less than <code>break_num</code> (which is 3). This repeats two more times until <code>break_count</code> is 3 and then the condition fails and the while loop is skipped over. Since there is no more code after the while loop, the program ends.</p>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://edelgrace.github.io/js/docs.min.js"></script>
+<script src="https://edelgrace.github.io/js/main.js"></script>
+
+<script src="https://edelgrace.github.io/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>

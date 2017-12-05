@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Music on edelgrace</title>
+    <title>Music on edel grace altares</title>
     <link>https://edelgrace.github.io/categories/music/</link>
-    <description>Recent content in Music on edelgrace</description>
+    <description>Recent content in Music on edel grace altares</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Mon, 20 Feb 2017 01:42:56 +0000</lastBuildDate>
     
 	<atom:link href="https://edelgrace.github.io/categories/music/index.xml" rel="self" type="application/rss+xml" />

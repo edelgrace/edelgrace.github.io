@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on edelgrace</title>
+    <title>Programming on edel grace altares</title>
     <link>https://edelgrace.github.io/categories/programming/</link>
-    <description>Recent content in Programming on edelgrace</description>
+    <description>Recent content in Programming on edel grace altares</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Sat, 29 Jul 2017 14:01:27 +0000</lastBuildDate>
     
 	<atom:link href="https://edelgrace.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />

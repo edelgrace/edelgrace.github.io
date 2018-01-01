@@ -231,9 +231,7 @@ However, I think the problem was due to bots trying to log into my WordPress das
       <description>Seeing that I am now unemployed and have a lot of time on my hands, I decided to utilize the free month of Udacity I received from Github&amp;rsquo;s Student Pack.
 This mini-project&amp;rsquo;s goal is to create a simple program using Python to open a web browser at an interval of ten seconds three times in a row.
 Here is my answer:
-`
-import time import webbrowser
-break_duration = 10 break_num = 3 break_count = 0</description>
+import time import webbrowser break_duration = 10 break_num = 3 break_count = 0 print(&#34;</description>
     </item>
     
     <item>
@@ -1474,6 +1472,15 @@ Day 2: Abs Today&amp;rsquo;s workout is split into two videos. Both target your 
       <guid>https://edelgrace.github.io/life/blogilates-beginners-workout-calendar-2-0-day-1/</guid>
       <description>Disclaimer: This &amp;ldquo;review&amp;rdquo;/blog series is NOT sponsored in any way and all opinions are entirely of my own.
 My first post of 2016! This year I resolved to get healthier. That is, eat healthier and be more active! I&amp;rsquo;ve been hanging out on the /r/xxfitness: Fitness for Women subreddit a lot lately. Since I&amp;rsquo;m hesitant to go to the gym, someone suggested I try Blogilates, ran by Cassey Ho. I browsed the site a bit and decided to try the Beginner&amp;rsquo;s Workout Calendar which lasts for four weeks.</description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://edelgrace.github.io/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edelgrace.github.io/archive/</guid>
+      <description></description>
     </item>
     
   </channel>

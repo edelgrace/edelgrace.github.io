@@ -38,9 +38,7 @@
       <description>Seeing that I am now unemployed and have a lot of time on my hands, I decided to utilize the free month of Udacity I received from Github&amp;rsquo;s Student Pack.
 This mini-project&amp;rsquo;s goal is to create a simple program using Python to open a web browser at an interval of ten seconds three times in a row.
 Here is my answer:
-`
-import time import webbrowser
-break_duration = 10 break_num = 3 break_count = 0</description>
+import time import webbrowser break_duration = 10 break_num = 3 break_count = 0 print(&#34;</description>
     </item>
     
     <item>

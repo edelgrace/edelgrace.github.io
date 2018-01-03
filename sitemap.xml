@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/block-week/</loc>
+    <lastmod>2018-01-02T20:03:42-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/my-2017/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -765,7 +770,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-02T20:03:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1076,6 +1081,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/categories/school/</loc>
+    <lastmod>2018-01-02T20:03:42-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/security/</loc>
     <lastmod>2016-06-07T03:26:11+00:00</lastmod>
     <priority>0</priority>
@@ -1173,7 +1184,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-02T20:03:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/yarn-winding/</loc>
+    <lastmod>2018-01-08T11:05:12-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/uber-frugal-month-january-2018-day-2/</loc>
     <lastmod>2018-01-04T22:44:25-07:00</lastmod>
   </url>
@@ -780,7 +785,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-01-04T22:44:25-07:00</lastmod>
+    <lastmod>2018-01-08T11:05:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -840,7 +845,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/crafts/</loc>
-    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-08T11:05:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1182,7 +1187,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/yarn/</loc>
-    <lastmod>2017-07-24T03:04:34+00:00</lastmod>
+    <lastmod>2018-01-08T11:05:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1194,7 +1199,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-01-04T22:44:25-07:00</lastmod>
+    <lastmod>2018-01-08T11:05:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   

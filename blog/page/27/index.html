@@ -54,92 +54,48 @@
     <article>
       <div class="article">
 
-        <h3><a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-12/">Blogilates Beginner’s Workout Calendar 2.0: Day 12</a></h3>
-        <h4>Feb 29, 2016 | <a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-12/#disqus_thread">Comments</a></h4>
+        <h3><a href="http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/">LFTP Fatal Error: Certificate verification</a></h3>
+        <h4>Oct 11, 2016 | <a href="http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/#disqus_thread">Comments</a></h4>
         
         <div class="tags">
             <ul>
               
-              <li><a href="/categories/fitness">Fitness</a></li>            
+              <li><a href="/categories/internet">Internet</a></li>            
               
-              <li><a href="/categories/life">Life</a></li>            
+              <li><a href="/categories/programming">Programming</a></li>            
+              
+              <li><a href="/categories/technology">Technology</a></li>            
               
   
               
-              <li><a href="/tags/blogilates">#blogilates</a></li>
+              <li><a href="/tags/git-ftp">#git-ftp</a></li>
               
-              <li><a href="/tags/blogilates-beginners-calendar">#blogilates beginners calendar</a></li>
+              <li><a href="/tags/lftp">#lftp</a></li>
               
             </ul>
         </div>
 
         
 
-<p><strong>Disclaimer:</strong> This &ldquo;review&rdquo;/blog series is NOT sponsored in any way and all opinions are entirely of my own.</p>
+<h3 id="the-error">The error:</h3>
 
-<p><a href="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2.png" rel="attachment wp-att-11076"><img src="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png" alt="blogilates-beginners-calender-2" width="1024" height="806" class="alignnone size-large wp-image-11076" srcset="http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png 1024w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-300x236.png 300w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-768x604.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><code class="multi">~$ git-ftp pull&lt;br /&gt;
+~$ cd: Fatal error: Certificate verification: certificate common name doesn&rsquo;t match requested host name ‘ftp.mazohyst.org’&lt;br /&gt;
+~$ mirror: Fatal error: Certificate verification: certificate common name doesn&rsquo;t match requested host name ‘ftp.mazohyst.org’</code></p>
 
-<h3 id="day-12-abs">Day 12: Abs</h3>
+<h3 id="solution">Solution:</h3>
 
-<p>Ab workouts are so brutal&#8230; And, of course, that&rsquo;s what everyone wants to workout. Cue the suffering.</p>
+<p>Edit <code>~/.lftp/rc</code> so that it contains <code>set ssl:check-hostname no</code>. What this does is pretty self explanatory. If the hostname in the certificate does not match the hostname you&rsquo;re attempting to connect to, it doesn&rsquo;t matter because it won&rsquo;t check for that in the first place.</p>
 
-<h3 id="video-1-ab-butt-workout">Video 1: Ab &amp; Butt Workout</h3>
+<h3 id="the-context">The context:</h3>
 
-<p>I seriously cannot get over how cute Rosanna is! She is absolutely adorable and when she struggles, I feel like I&rsquo;m not alone in ab hell. Somehow, she smiles through all of it! Workout goals&#8230;</p>
+<p>I recently wanted to implement version control for my websites because all too often I think to myself, &ldquo;I wish I knew what a previous version of this file looked lik&rdquo;. So since I&rsquo;m on shared hosting and don&rsquo;t have my own server, I resorted to using <a href="https://github.com/git-ftp/git-ftp">git-ftp</a> for deploying my websites. So far, it&rsquo;s working great. However, I momentarily forgot I started using this and made some changes on one of my pages through cPanel. I tried pulling the latest pages using <code>git-ftp pull</code> and encountered this error.</p>
 
-<div class="flex-video">
-</div>
-
-<ul>
-<li><em>Scissors:</em> Literally the only easy workout in this video.</li>
-<li><em>One Leg Crunch:</em> I still keep using my neck instead of my core to do these but it&rsquo;s so hard for me to lift up my shoulders still.</li>
-<li><em>Roll ups:</em> Thank goodness for roll ups (again).</li>
-<li><em>Balancing Pilates Stances:</em> Thankfully, I made a better attempt at this one compared to last week.</li>
-<li><em>Fire Hydrant:</em> For the first time, I actually felt my butt working in this move&#8230; This was another move that was easier this time around!</li>
-<li><em>Plank Twists:</em> Add this move to my &ldquo;Edel actually did it this time!&rdquo; list. I don&rsquo;t know what it was but they were easier this week. Although my feet kept pushing away the rug from my feet.</li>
-</ul>
-
-<h3 id="video-2-abs-on-fire">Video 2: Abs on Fire</h3>
-
-<p>Cassey was not joking about the title when she named this video &ldquo;abs on fire.&rdquo; My abs&#8230; Were definitely on fire.</p>
-
-<div class="flex-video">
-</div>
+<h3 id="sources">Sources:</h3>
 
 <ul>
-<li><em>Genie Abs:</em> These&#8230; were surprisingly okay! I&rsquo;m really bad at using my core. It wasn&rsquo;t until Cassey made it harder did I start to struggle a little.</li>
-<li><em>Eagle Abs:</em> This move is very&#8230; Twisty! I suck at any variation of crunches so this was not a fun move. I don&rsquo;t think I did it right at all. I ended up just holding onto my knees whenever I went up.</li>
-<li><em>Runaway Abs:</em> What a cute move. It was hard though because it always hurts to try to lift my shoulders off the floor. I could feel my shoulder blades digging into the ground.</li>
-<li><em>Double Leg Stretch/Star Abs:</em> This was hard and I didn&rsquo;t have much room to do these properly. But I really tried to do these. Once again, once Cassey added a little more difficulty to the move, I tried it but just ended up doing the simple version again.</li>
-<li><em>Clock Abs:</em> I do not like clock abs! I find it so hard to do and my hips go all over the place. But I tried my best, even if it was at a snail&rsquo;s pace.</li>
-<li><em>Hollow Rock:</em> I could not do these very well! I kept sitting up all the way which is what is not what I was supposed to do, I&rsquo;m guessing.</li>
-<li><em>Single Leg Drop:</em> You&rsquo;d think this move would be easy but I actually had some trouble with this one. But I pushed through it despite skipping some of the harder variations (completely by accident, I used my phone to watch this video and put it down without checking to see if anything changed).</li>
-<li><em>Cheerleader L&rsquo;s:</em> There are two reasons why I was never a cheerleader. A) I have no flexibility or physical ability at all. B) We never had cheerleaders at my high school. So this move was really hard. I could barely do it. Actually, I couldn&rsquo;t do it! I just did it half-halfheartedly.</li>
-<li><em>Earthquake:</em> Cassey said to expect shaking. Boy did the shaking happen. Every time Cassey said &ldquo;lower!&rdquo; I laughed and held my position. I did try to go as low as I could but it was not low enough at all.</li>
+<li><a href="http://web.archive.org/web/20160330173659/http://www.versatilewebsolutions.com/blog/2014/04/lftp-ftps-and-certificate-verification.html">LFTP FTPS and Certificate Verification</a></li>
 </ul>
-
-<h3 id="video-3-relax-with-me-stretch">Video 3: Relax with Me Stretch</h3>
-
-<p>I was a little wary doing the stretches because on Friday I was stretching and gave myself a charley horse. The beach scenery was a nice touch. Typical California. I want sun too&#8230;</p>
-
-<div class="flex-video">
-</div>
-
-<ul>
-<li><em>Rise and Shine:</em> A move with almost no effort. Just a nice start to the stretching. I felt like a weird flower or something.</li>
-<li><em>Side Bend Stretch:</em> Another easy move. My left side was feeling a little sore so I tried my best not to overdo it.</li>
-<li><em>Half Rainbow Glute:</em> My left side was definitely not stretched out enough due to my soreness but my right side was feeling nice and taut!</li>
-<li><em>Stretching Child/Mini Child Press:</em> Ramping up the difficulty just a tad bit. Presses are hard for me no matter what. But it was still relatively easy.</li>
-<li><em>Down Dog:</em> This move actually made me sweaty. How do stretches make me more sweaty than the actual workout itself??</li>
-<li><em>Dogging Cobra:</em> This move made me even more sweatier. I got pretty tired by the end and really had to push through it.</li>
-<li><em>Head Rolls:</em> Is it a little weird how I&rsquo;m paranoid about cracking my neck? Usually it feels good but I&rsquo;m guessing I had no knots to straighten out today.</li>
-<li><em>Soul Stretch:</em> This is definitely a move that makes you sigh with relief. I love the stretch in this one!</li>
-<li><em>Long Lunge Twist:</em> My balance was tested in this move. I have no balance.</li>
-</ul>
-
-<h3 id="thoughts">Thoughts</h3>
-
-<p>It was pretty disheartening to read the comments on the Blogilates page about people feeling discourage by today&rsquo;s videos. The &ldquo;Abs on Fire&rdquo; video was definitely hard and a little outside of my difficulty range. I stumbled through that video and didn&rsquo;t really &ldquo;complete&rdquo; it at all. But I know that I suck at the moment and I&rsquo;m not strong enough and I accepted it. Maybe this the only advantage of being self deprecating all the time? So if you&rsquo;re feeling demotivated by the &ldquo;Abs on Fire&rdquo; video, it&rsquo;s okay. As long as you even attempt some of the moves, you are making progress. You&rsquo;re not there YET but if you keep pushing through, you will be there eventually!</p>
 
 
       </div>
@@ -150,73 +106,88 @@
     <article>
       <div class="article">
 
-        <h3><a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-11/">Blogilates Beginner’s Workout Calendar 2.0: Day 11</a></h3>
-        <h4>Feb 27, 2016 | <a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-11/#disqus_thread">Comments</a></h4>
+        <h3><a href="http://edelgrace.me/blog/bought-some-new-music/">Bought Some New Music!</a></h3>
+        <h4>Oct 9, 2016 | <a href="http://edelgrace.me/blog/bought-some-new-music/#disqus_thread">Comments</a></h4>
         
         <div class="tags">
             <ul>
               
-              <li><a href="/categories/fitness">Fitness</a></li>            
-              
-              <li><a href="/categories/life">Life</a></li>            
+              <li><a href="/categories/music">Music</a></li>            
               
   
-              
-              <li><a href="/tags/blogilates">#blogilates</a></li>
-              
-              <li><a href="/tags/blogilates-beginners-calendar">#blogilates beginners calendar</a></li>
               
             </ul>
         </div>
 
-        
+        <p>Lately I&rsquo;ve been using Spotify a lot. I only ever use it when I&rsquo;m at my computer. When I&rsquo;m on the go, I turn to my trusty iPod classic. Since I use the free version of Spotify (now that I have a job, I can&rsquo;t say that I&rsquo;m a broke college student anymore but I can say that I&rsquo;m still cheap), being able to choose what I listen to is a must and Spotify mobile doesn&rsquo;t have that ability. The contrast between the songs on my iPod and Spotify is staggering.</p>
 
-<p><strong>Disclaimer:</strong> This &ldquo;review&rdquo;/blog series is NOT sponsored in any way and all opinions are entirely of my own.</p>
+<p>On my iPod, I have a bunch of foreign artists, mainly Japanese and Korean with a side of Taiwanese. If you look at my Spotify, it&rsquo;s mostly a bunch of really poppy Western mainstream music. I&rsquo;ve discovered a lot of new artists through Spotify simply because the Japanese catalogues on Spotify is sparse and I value accurate tagging (English translations of song titles vs. the original Japanese characters on the back of a CD) too much to listen to some of the Japanese music that is on Spotify.</p>
 
-<p><a href="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2.png" rel="attachment wp-att-11076"><img src="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png" alt="blogilates-beginners-calender-2" width="1024" height="806" class="alignnone size-large wp-image-11076" srcset="http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png 1024w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-300x236.png 300w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-768x604.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>So it&rsquo;s always a treat when I happen to get my hands on an iTunes gift card (remember, I said I&rsquo;m cheap). Except it&rsquo;s also hard trying to figure out what I want to buy with it because I can only choose the best. I only managed to squeeze out 9 songs from my $10 gift card but it&rsquo;s like 35 minutes worth of music so $0.28 cents per minute? I actually have no idea if that&rsquo;s a good amount or not.</p>
 
-<h3 id="day-11-lower-body">Day 11: Lower Body</h3>
-
-<p>Another day, another week almost finished (I&rsquo;m talking in terms of the weekday week and not the Blogilates week)! I keep mixing up the &ldquo;Wake up and &#8230;&rdquo; preambles at the start of each day&#8230;. Yesterday I did 30 second planks on each side instead of just 1 minute of planking. I really hate those planks&#8230; You will not hear me say that enough, haha!</p>
-
-<h3 id="video-1-pick-me-up-quickie-workout">Video 1: Pick Me Up Quickie Workout</h3>
-
-<p>Cassey is totally peppy and first thing in the morning, I&rsquo;m not quite sure if I&rsquo;m feeling the happiness. But this is a new workout video so I tried to give it a shot.</p>
-
-<div class="flex-video">
-</div>
+<p>On to what I bought!</p>
 
 <ul>
-<li><em>Dogging Cobra:</em> This move is fun to do! I didn&rsquo;t find it too hard but like with any move, with more repetitions, it got more tiring to do. Cassey said it really wakes you up, especially early in the morning and she is right, haha.</li>
-<li><em>Clam Kicks:</em> I find this move really interesting. My bones kept cracking with this one, on both legs. This doesn&rsquo;t get as tiring as other moves in this video.</li>
-<li><em>Single Arm Press:</em> I found this move really hard! My hip (?) bone kept pressing down into the floor and it hurt. I even pulled out a rug to put under me to make it hurt less, haha!</li>
-<li><em>Boat Teaser:</em> I could not do this move at the pace Cassey did it. I don&rsquo;t have a strong enough core to lift myself up. I probably approached it wrong because I did it like a roll up and then attempted to bring my legs in. Whoops.</li>
+<li><p><strong>E is For Estranged by Owen Pallett</strong></p>
+
+<p>I didn&rsquo;t discover Owen Pallett from Spotify (my ex introduced me to him) but I did discover this song on Spotify! Even though the storyline of the song doesn&rsquo;t relate to me at all, I associate this song with myself as my name starts with E. There&rsquo;s something incredibly nostalgic about this song with a dash of good old melancholy.</p></li>
+
+<li><p><strong>Icarus, Bint Elkhandaq, and Maghawir by Mashrou&rsquo; Leila</strong></p>
+
+<p>When I used to be obsessed with TCGs, I was inspired for a couple of months to make a TCG of my own: an Asian music inspired TCG. Except I was determined to include Asian countries that weren&rsquo;t just Japan, Korea, China, and Taiwan. On my search, I came across Lebanese based alternative band Mashrou&rsquo; Leila. They were more secular than I expected with songs covering topics such as homosexuality, clubbing, and politics but I mostly fell in love with their catchy tunes! Their latest album (which all three of these song are from) is a bit more on the poppy side but I honestly love the entire album so just picking a few songs to buy was difficult.</p></li>
+
+<li><p><strong>Let Me Go! feat. Sophie Hunger by Erik Truffaz 4tet</strong></p>
+
+<p>I stumbled onto this song purely by chance, thanks to Mashrou&rsquo; Leila. The lead singer of Mashrou&rsquo; Leila performed a cover of this song from Erik Truffaz 4tet. I was enchanted by it and hurried to listen to the original. Hearing it being sung in English hit me hard. Sophie Hunger has a perfect voice for this song. It has a sense of longing to break free that she captures perfectly.</p></li>
+
+<li><p><strong>Paris is Burning and All My Stars Aligned by St. Vincent</strong></p>
+
+<p>I had heard of St. Vincent before but wasn&rsquo;t entirely sure what she was about. I <em>think</em> she came up on my Discover Weekly on Spotify one day and and according to my Last.fm, it was most likely <strong>Paris is Burning</strong>. The song was unbelievably quirky and I fell in love instantly. It took me a couple of months to listen to the rest of the <strong>Marry Me</strong> album and <strong>All My Stars Aligned</strong> was one of the songs that resonated with me. It was an obvious jab at people who turn to superstitions (astrology, palm reading, etc.) which I sometimes dabble in but I loved it so much. Also St. Vincent is an absolutely beautiful human being.</p></li>
+
+<li><p><strong>Human Sadness by Julian Casablancas + The Voidz</strong></p>
+
+<p>This song I know for sure came up on my Discover Weekly on Spotify. I had been listening to some of Julian&rsquo;s tracks from his solo album <strong>Phrazes for the Young</strong> for a bit up to that point. When I heard <strong>Human Sadness</strong>, it hit all the right buttons with me and I knew I had to know more about this Julian dude. Long 10 minute epic? Check. Grungy lo-fi vibe? Check. Cool guitar riffs? Check. Depressing song title? Check. Depressing song lyrics? Check. Although once I learned the lyrics, some of the impact the song had on me was a little reduced but there are some gems. &ldquo;The moon&rsquo;s a skull, I think it&rsquo;s grinning&rdquo; is one of them.</p></li>
+
+<li><p><strong>You Only live Once by The Strokes</strong></p>
+
+<p>The original YOLO. Okay, when I found out Julian Casablancas was the lead singer of The Strokes, my mind was blown. I immediately dived in head first into their music after finding this out. Okay, I&rsquo;m still on their first album and last EP but there is a lot to digest. <del>I&rsquo;m not going to lie, part of the reason why I love this song is because Julian is so damn beautiful in the music video.</del> Something about this song makes me want to get up and dance, strangely enough. I also can&rsquo;t resist singing along to this song. It&rsquo;s so British rock that I would have totally thought they were British if I didn&rsquo;t know any better.</p></li>
 </ul>
 
-<h3 id="video-2-body-slimming-workout">Video 2: Body Slimming Workout</h3>
-
-<p>Since I already listed the moves in this workout previously, I&rsquo;m not going to attempt to list them out again. I did much better this time around. Those hundreds still kill me. I really need to work on my Pilates stance. Fortunately, I was actually able to do the parachuters move this time around! I love these confidence boosting videos, haha.</p>
-
-<div class="flex-video">
-</div>
-
-<h3 id="video-3-6-minutes-to-sexy-thighs">Video 3: 6 Minutes to Sexy Thighs</h3>
-
-<p>Not really liking the title of this video because it makes me feel a little vain or shallow, haha.</p>
-
-<div class="flex-video">
-</div>
+<p>Songs that I totally want to buy next time:</p>
 
 <ul>
-<li><em>Criss Cross Scissors:</em> I think this is the easiest move in this video. It was kind of fun as well. I closed my eyes for a bit, like Cassey suggested. It was kind of humorous listening to Cassey, a California girl, talk about the cold. Try living where there&rsquo;s snow!</li>
-<li><em>Froggers:</em> This one is also kind of easy compared to the other ones in this workout. It&rsquo;s more tiring than the criss cross scissors but not as tiring as some of the other moves in today&rsquo;s videos.</li>
-<li><em>Double Leg Lift Presses:</em> This one was a struggle. I have trouble with the double leg lift to begin with and adding those presses made it even more difficult.</li>
-<li><em>Leg Side Press:</em> I&rsquo;m tempted to say these were the hardest moves in this video. Staying up and resisting the urge to sink to the floor was hard. The actual move was SO tiring. It was a relief when Cassey spent less time on the last side, haha.</li>
+<li><p><strong>Cool by Gwen Stefani</strong></p>
+
+<p>I went through a really weird and brief Gwen Stefani phase earlier in the year. I don&rsquo;t know how it came about. I remember seeing this music video on Much Music and dismissing it as Gwen acting all sexy in a luxurious mansion but now what I get from it is that Gwen is gorgeous is a brunette. Okay, I did get more out of it. It&rsquo;s actually quite a mature song when I think about it. It takes a lot to look back at a past relationship (that first love you thought that you would marry, at that) and fully accept that you&rsquo;ve both moved on while still being close friends. I&rsquo;m a bit of a romantic in that way, I guess.</p></li>
+
+<li><p><strong>Cruel by St. Vincent</strong></p>
+
+<p>My love for this woman is neverending. The guitar solo isn&rsquo;t long at all but it&rsquo;s the highlight of the song, in my opinion. I love how St. Vincent tackles the subject of the unappreciated parental figure. Also, props to St. Vincent for using gender neutral language (she refers to this unappreciated person as &ldquo;bodies&rdquo; throughout the song).</p></li>
+
+<li><p><strong>Galaxy by LADIES&rsquo; CODE</strong></p>
+
+<p>This song is sexy. I can&rsquo;t say more about it, unfortunately, haha! This is a Korean girl group which I found on Spotify, which is a little rare for me. I like this song a lot.</p></li>
+
+<li><p><strong>Utada Hikaru&rsquo;s new album!!!!!!!</strong></p>
+
+<p>I was tempted to spend all $10 on this album but I decided against it as the songs I&rsquo;ve listened to on the album I already own. I want a more concrete opinion of the album before I buy it. The teaser for the Shiina Ringo collaboration was so tempting. But I like making informed buying decisions. I know I won&rsquo;t be disappointed since it&rsquo;s Utada Hikaru, but still.</p></li>
+
+<li><p><strong>Unrequited Love by CAPSULE</strong></p>
+
+<p>While on my latest trip to the Philippines, I listened to <em>WAVE</em> <em>RUNNER</em> multiple times on the plane there. A lot of people complain about how Western the album is. EDM and dubstep is horrible. Toshiko doesn&rsquo;t sing much. Blah, blah, blah&#8230; I personally found the album to be pretty good. Honestly, I dismiss comments that complain of foreign music being &ldquo;too Western.&rdquo; In my mind it implies a weird exoticizing take on foreign music. Anyway, I really like this song, despite not being heavy into electronic music. Toshiko has great lines.</p></li>
+
+<li><p><strong>House of Balloons/Glass Table Girls by The Weekend</strong></p>
+
+<p>The earlier works of The Weekend are intoxicating. Seriously, The Weekend&rsquo;s super clean vocals mixed with the heavy beats make for songs that make you feel like you&rsquo;re on a trip (is that how the kids say it nowadays). This song is just intoxicating in a seductive way.</p></li>
+
+<li><p><strong>Primadonna by Marina and the Diamonds</strong></p>
+
+<p>Marina is HOT. Her Electra Heart era reawakened my hidden feelings for Vanessa Hudgens (you can&rsquo;t deny that Marina looks at least a little like Vanessa!). But yeah, there&rsquo;s something really attractive about her Electra Heart persona. It&rsquo;s a shame that she doesn&rsquo;t view the era as a great period in her career because I love it. Primadonna is like a rich spoiled girl anthem and I can&rsquo;t get enough of it.</p></li>
+
+<li><p><strong>Divers by Joanna Newsome</strong></p>
+
+<p>&#8230;&#8230;&#8230;&#8230;&#8230;. I can&rsquo;t believe I forgot about this song. Unfortunately, Joanna doesn&rsquo;t have her music on Spotify so unless I&rsquo;m on YouTube, I don&rsquo;t listen to this song. Which is a great reason why I need this song! I think I&rsquo;ve written about <em>Divers</em> before but I will reiterate once again that I am IN LOVE with Joanna. She&rsquo;s extremely polarizing. You either kiss the earth she walks on or think her voice is like nails on chalkboard. This is a masterpiece and I love her. I totally regret not buying this now. Damn, how could I forget this song?</p></li>
 </ul>
-
-<h3 id="thoughts">Thoughts</h3>
-
-<p>This is the first time I&rsquo;ve done a workout <em>first thing</em> in the morning. Okay, I admit, I kind of browsed on my phone for a quick few minutes and then I worked out but it&rsquo;s close enough for me! The first video was a little hard, the second video was a good motivation booster, and the last workout was definitely a challenge. I also actually got sweaty today doing these. Surprisingly enough, it was during the video that was the easiest for me, the body slimming workout!</p>
 
 
       </div>
@@ -227,61 +198,28 @@
     <article>
       <div class="article">
 
-        <h3><a href="http://edelgrace.me/blog/blogilates-beginners-workout-calenday-2-0-day-10/">Blogilates Beginner’s Workout Calendar 2.0: Day 10</a></h3>
-        <h4>Feb 27, 2016 | <a href="http://edelgrace.me/blog/blogilates-beginners-workout-calenday-2-0-day-10/#disqus_thread">Comments</a></h4>
+        <h3><a href="http://edelgrace.me/blog/speaking-of-security/">Speaking of Security</a></h3>
+        <h4>Jun 7, 2016 | <a href="http://edelgrace.me/blog/speaking-of-security/#disqus_thread">Comments</a></h4>
         
         <div class="tags">
             <ul>
               
-              <li><a href="/categories/fitness">Fitness</a></li>            
+              <li><a href="/categories/internet">Internet</a></li>            
               
-              <li><a href="/categories/life">Life</a></li>            
+              <li><a href="/categories/technology">Technology</a></li>            
               
   
-              
-              <li><a href="/tags/blogilates">#blogilates</a></li>
-              
-              <li><a href="/tags/blogilates-beginners-calendar">#blogilates beginners calendar</a></li>
               
             </ul>
         </div>
 
-        
+        <p><a href="/2016/06/security-by-obscurity/">My last post</a> was about security by obscurity and I talked a little about trying to implement security techniques into my projects. This is really great timing.</p>
 
-<p><strong>Disclaimer:</strong> This &ldquo;review&rdquo;/blog series is NOT sponsored in any way and all opinions are entirely of my own.</p>
+<p>Last week, various online services ran by my university were down. It was really inconvenient not having access to my e-mail but I took it in stride. I figured it was just the servers acting up or malware or something like that. It turns out that <a href="http://www.ucalgary.ca/it/news/06072016/university-calgary-makes-significant-progress-address-systems-issues">my university was dealing with a ransomware attack</a>. I was half right. Ransomware is malware that basically holds a system hostage until a ransom is paid. My university gave into it and paid $20 000 to get the systems back.</p>
 
-<p><a href="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2.png" rel="attachment wp-att-11076"><img src="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png" alt="blogilates-beginners-calender-2" width="1024" height="806" class="alignnone size-large wp-image-11076" srcset="http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png 1024w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-300x236.png 300w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-768x604.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>Honestly, it seems to me like paying the ransom was the smart choice. Thousands of users were affected by this attack and it&rsquo;s probably costing them a lot more not having their systems than to pay the money. It&rsquo;s probably the easiest route. I haven&rsquo;t done much research on it but apparently FBI recommends this. It’s better if you don’t pay the ransom but if you’re not tech savvy or the stakes are too high (but not like top secret government stakes), it’s probably a good idea.</p>
 
-<h3 id="day-10-abs">Day 10: Abs</h3>
-
-<p>The day starts off with two thirty second planks on each side. How I hate planks&#8230; But I did it anyway, even if I cheated for a couple seconds on each. There&rsquo;s only one new video today and I decided that I wouldn&rsquo;t list all the moves for the other videos again in the interest of time and because I don&rsquo;t really have anything to say about specific moves.</p>
-
-<h3 id="video-1-ab-time">Video 1: Ab Time</h3>
-
-<p>This video is so simple and without graphics, it&rsquo;s so weird now that I&rsquo;m used to her more recent videos! The moves are considerably easier this time around. I was able to do the plank and plank variations which made me pretty happy!</p>
-
-<div class="flex-video">
-</div>
-
-<h3 id="video-2-bubble-butt-workout">Video 2: Bubble Butt Workout</h3>
-
-<p>I&rsquo;m a little skeptical on the whole butt thing (is lifting my butt a good thing even if I have absolutely no butt?) but I did this workout anyway. I was able to go through this entire video without cheating. The grasshopper move at the end is still pretty hard for me. I&rsquo;m getting bonier and my hips hurt being pushed to the ground&#8230; Otherwise, I think my butt is on it&rsquo;s way to become a butt!</p>
-
-<div class="flex-video">
-</div>
-
-<h3 id="video-3-best-stretches-for-chilling-out">Video 3: Best Stretches for Chilling Out</h3>
-
-<p>These stretches feel so good afterwards! Early in the day I got a Charliehorse in one leg and almost in the other so I didn&rsquo;t push myself as much as I could have. I just hate cramping up. Obviously I need to do more stretches and drink more water.</p>
-
-<div class="flex-video">
-</div>
-
-<h3 id="thoughts">Thoughts</h3>
-
-<p>Today was an overall good day! In the morning I went to my spin class. We had a different instructor today and he worked us HARD. But the things he did were so fun and really did include some familiar pilates moves. A lot of working out in my core. However, the post stretch workout gave me a Charlie horse in my right leg and it was pretty sore until the evening. I also spent a good amount of the day walking around as I walked to the clinic to see a doctor (nothing serious, don&rsquo;t worry).</p>
-
-<p>The Blogilates workouts today was definitely a feel good motivator. It&rsquo;s great seeing some sort of progress. Maybe that means tomorrow will be especially hard! I&rsquo;m expecting to receive the March calendar soon so maybe I&rsquo;ll do them in parallel and see if that ramps up the difficulty. It makes me a little nervous knowing how the workouts can get harder. Some of the days seem so hard already! Well, I guess I just gotta push through.</p>
+<p>Also, personal anecdote. I&rsquo;ve had an instance of &ldquo;ransomeware.&rdquo; It was more like adware ransomware. I was browsing around and all of a sudden my screen flashed and accused me of a crime and asked me to pay a fine. I read through it several times and I froze a bit. I was innocent of the crime (of course) but I was worried that maybe it was something that could easily look like I commited it (think like authors who joke about being on some kind of list for researching murder methods for a book). But I calmly opened up my phone and looked up the message. Common ransomware. So I safely ignored it. Thank goodness because the amount they were asking was easily ten times more than what&rsquo;s in my bank account.</p>
 
 
       </div>
@@ -292,50 +230,32 @@
     <article>
       <div class="article">
 
-        <h3><a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-9/">Blogilates Beginner’s Workout Calendar 2.0: Day 9</a></h3>
-        <h4>Feb 26, 2016 | <a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-9/#disqus_thread">Comments</a></h4>
+        <h3><a href="http://edelgrace.me/blog/security-by-obscurity/">Security By Obscurity: Just Hide It?</a></h3>
+        <h4>Jun 7, 2016 | <a href="http://edelgrace.me/blog/security-by-obscurity/#disqus_thread">Comments</a></h4>
         
         <div class="tags">
             <ul>
               
-              <li><a href="/categories/fitness">Fitness</a></li>            
-              
-              <li><a href="/categories/life">Life</a></li>            
+              <li><a href="/categories/technology">Technology</a></li>            
               
   
               
-              <li><a href="/tags/blogilates">#blogilates</a></li>
-              
-              <li><a href="/tags/blogilates-beginners-calendar">#blogilates beginners calendar</a></li>
+              <li><a href="/tags/security">#security</a></li>
               
             </ul>
         </div>
 
-        
+        <p>Last semester I took an introductory course to information security. One of the concepts we touched on was &ldquo;security by obscurity.&rdquo; Basically what that means is if no one is aware of something, they can&rsquo;t possibly break into it. For example, hiding your diary is a form of security by obscurity. Of course, this has it flaws. There is always the possibility that someone could somehow stumble upon your diary by accident. There might people actively looking for something valuable to you but they won&rsquo;t know what it is until they find it. Notice I didn&rsquo;t mention &ldquo;if&rdquo; they find it. It&rsquo;s always a good practice to assume that they will find it. This is one of the reasons why security by obscurity is not ideal.</p>
 
-<p><strong>Disclaimer:</strong> This &ldquo;review&rdquo;/blog series is NOT sponsored in any way and all opinions are entirely of my own.</p>
+<p>Truth be told, I use security by obscurity. The diary analogy I used was something that I actually do. Now, my mom loves to poke around and I still live with her. She has read my diaries in the past so it&rsquo;s not far-fetched that she would find my diary one day and read it. This is why I don&rsquo;t use it as my only form of security. My journal entries are either about really mundane stuff or encrypted with <a href="http://www.ccelian.com/concepca.html">Elian script</a>. So unless my mother is good at cracking ciphers (which I highly doubt as English is her second language and frequency analysis is probably lost on her), I can safely assume that my secrets are safe with me.</p>
 
-<p><a href="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2.png" rel="attachment wp-att-11076"><img src="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png" alt="blogilates-beginners-calender-2" width="1024" height="806" class="alignnone size-large wp-image-11076" srcset="http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png 1024w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-300x236.png 300w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-768x604.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>The reason why I suddenly started thinking about this is because I have a project that I&rsquo;ve been working on. I&rsquo;ve been trying to build a book management script. Right now I&rsquo;m just finishing up simple features for the admin panel such as tagging a book, adding a review to a book, editing author names, etc. All of this is currently in a folder with an obscure name. At first I thought that if my admin folder wasn&rsquo;t named something obvious like &ldquo;admin,&rdquo; I would less likely have a security breach. Who would want to hack my tiny and unpopular websites anyway? Then I realized, wait, that&rsquo;s a really bad idea.</p>
 
-<h3 id="day-9-abs">Day 9: Abs</h3>
+<p>Curious, I looked up if there was a way to discover folders that were not explicitly linked publically. I was not surprised when I saw that such a way does indeed exist. In fact, there are several ways (or programs) to do this. Software like <a href="https://pentest-tools.com/website-vulnerability-scanning/discover-hidden-directories-and-files">URL Fuzzer</a> and <a href="http://git.kali.org/gitweb/?p=packages/dirbuster.git;a=summary">DirBuster</a> utilize a method called fuzzing. In my introductory class, we would classify this as a brute force method. What fuzzing does is try any possible number of combinations in order to find a weakness. In this case, it tries to find out if a folder exists. Specifically, DirBuster goes through a list of words (have not checked if it includes random strings or just common words) and appends them to a URL. Depending on the HTTP status code (things like 404 not found or 403 forbidden), it can determine if a folder exists on the website or not.</p>
 
-<h3 id="video-1-total-body-workout">Video 1: Total Body Workout</h3>
+<p>So, knowing this, I could still use security by obscurity. However, like my diary, I plan to implement other layers of security. Whether or not it will increase security or just give it security it didn’t have in the first place, I’m not sure (entropy wasn&rsquo;t my strong point in my information security course). But I am sure that leaving it as a randomly named folder is not the way to go. I know how to do simple PHP sessions with a login but only with matching the submitted password with a plaintext password in a database. That&rsquo;s a whole other realm of security issues so I&rsquo;m going to start reading up on hashing passwords in PHP. I&rsquo;ve poked around some open source scripts and have found MD5 hash functions so that&rsquo;s probably what I&rsquo;m aiming for. Honestly, I&rsquo;m not well-versed in web security specifically (other than SQL injections are bad and you have to sanitize them) but that’s why I’m still learning.</p>
 
-<p>I&rsquo;m not going to list the moves for this video again because my comments are mostly the same from the last time I did this video. I really am progressing with those pull ups. Not once did I have to grab my legs! However I do rely on my momentum more rather than my core, but still. This might be old news but I still hate the hundred move&#8230; It totally hurts my neck and I know I&rsquo;m doing it wrong but I just can&rsquo;t do it right, yet.</p>
-
-<div class="flex-video">
-</div>
-
-<h3 id="video-2-abc-abs">Video 2: ABC Abs</h3>
-
-<p>I won&rsquo;t list the moves to this video either because there are only two moves. The first one is a position where you have to draw letters in your air using your arms. It&rsquo;s hard because it&rsquo;s in a Pilates stance. I had to pause a couple of times to regain my composure. The second move is the same thing but with the legs and different positioning. My tailbone really bothers me a lot when it comes to these exercise. So I struggled doing this one as well, but not as much as I did with the first one.</p>
-
-<div class="flex-video">
-</div>
-
-<h3 id="thoughts">Thoughts</h3>
-
-<p>My overall thoughts for today? I hate ABC Abs, haha! I think they are the hardest moves so far in this calendar. It now feels like I&rsquo;ve been doing it forever but it&rsquo;s only day nine! Time flies&#8230; Can I just fast forward to the end where I&rsquo;m string and fit and can eat cheat food!</p>
+<p>So the next time you think you’re just going to hide something and think you’ll be fine, you probably will be but it’s better if you combine it with some other security technique especially if it contains sensitive information.</p>
 
 
       </div>
@@ -346,77 +266,834 @@
     <article>
       <div class="article">
 
-        <h3><a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-8/">Blogilates Beginner’s Workout Calendar 2.0: Day 8</a></h3>
-        <h4>Feb 25, 2016 | <a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-8/#disqus_thread">Comments</a></h4>
+        <h3><a href="http://edelgrace.me/blog/ccna1-8-2-1-4-packet-tracer-designing-and-implementing-a-vlsm-addressing-scheme/">CCNA1 8.2.1.4 Packet Tracer – Designing and Implementing a VLSM Addressing Scheme</a></h3>
+        <h4>Jun 4, 2016 | <a href="http://edelgrace.me/blog/ccna1-8-2-1-4-packet-tracer-designing-and-implementing-a-vlsm-addressing-scheme/#disqus_thread">Comments</a></h4>
         
         <div class="tags">
             <ul>
               
-              <li><a href="/categories/fitness">Fitness</a></li>            
-              
-              <li><a href="/categories/life">Life</a></li>            
+              <li><a href="/categories/technology">Technology</a></li>            
               
   
               
-              <li><a href="/tags/blogilates">#blogilates</a></li>
-              
-              <li><a href="/tags/blogilates-beginners-calendar">#blogilates beginners calendar</a></li>
+              <li><a href="/tags/ccna">#CCNA</a></li>
               
             </ul>
         </div>
 
         
 
-<p><strong>Disclaimer:</strong> This &ldquo;review&rdquo;/blog series is NOT sponsored in any way and all opinions are entirely of my own.</p>
+<p>I&rsquo;m currently taking the CCNA1 course offered by Cisco. I struggled a lot with this activity so I thought it would be good to share how I finally figured it out. If you&rsquo;re a little lazy and just want the answers, click <a href="#answers">here</a> to go straight to the addressing table or <a href="http://scattered.me/wp-content/uploads/2016/06/8.2.1.4-Packet-Tracer-Designing-and-Implementing-a-VLSM-Addressing-Scheme.pdf">here</a> to download the PDF. Be aware that the addresses may vary but the process is the same regardless.</p>
 
-<p><a href="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2.png" rel="attachment wp-att-11076"><img src="http://scattered.me/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png" alt="blogilates-beginners-calender-2" width="1024" height="806" class="alignnone size-large wp-image-11076" srcset="http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png 1024w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-300x236.png 300w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-768x604.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>I am only human and will make mistakes so do not hesitate to point out any errors!</p>
 
-<h3 id="day-8-total-body">Day 8: Total Body</h3>
-
-<p>After my &ldquo;rest day&rdquo; I&rsquo;ve been missing Cassey a little. It&rsquo;s hard to believe that it&rsquo;s already the second week! It doesn&rsquo;t feel like it&rsquo;s been that long&#8230;</p>
-
-<h3 id="video-1-indoor-cardio-workout">Video 1: Indoor Cardio Workout</h3>
-
-<p>I wish I had more time to do workouts in the morning because when it comes to the cardio videos, I just can&rsquo;t do them 100% without making a bunch of noise. I workout at night which is the most convenient time for me. I did get my heart rate up though, even if I didn&rsquo;t do the workout to my fullest.</p>
-
-<div class="flex-video">
+<div class="panel">
+  <ul>
+    <li>
+      <a href="#1">Part 1</a> <ul>
+        <li>
+          <a href="#1-1">Step 1</a>
+        </li>
+        <li>
+          <a href="#1-2">Step 2</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li>
+      <a href="#2">Part 2</a> <ul>
+        <li>
+          <a href="#2-1">Step 1</a>
+        </li>
+        <li>
+          <a href="#2-2">Step 2</a>
+        </li>
+        <li>
+          <a href="#2-3">Step 3</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li>
+      <a href="#3">Part 3</a>
+    </li>
+  </ul>
 </div>
 
-<h3 id="video-2-body-slimming-workout">Video 2: Body Slimming Workout</h3>
+<h3 id="a-name-1-a-part-1-examine-the-network-requirements"><a name="1"></a>Part 1: Examine the Network Requirements</h3>
 
-<p>This &ldquo;body slimming&rdquo; workout is essentially a rehash of the beginner&rsquo;s pilate video Cassey made. I enjoy the better quality a lot!</p>
+<h4 id="a-name-1-1-a-step-1-determine-the-number-of-subnets-needed"><a name="1-1"></a>Step 1: Determine the number of subnets needed.</h4>
 
-<div class="flex-video">
-</div>
+<p>You will subnet the network address 192.168.72.0/24. The network has the following requirstrongents:</p>
 
 <ul>
-<li><em>Roll Ups:</em> I&rsquo;m slowly working my way up from an assisted to non-assisted roll up! I can do a couple of roll ups now without holding onto my legs, however my feet kind of lift off the ground but it&rsquo;s progress!</li>
-<li><em>Pilates Stance:</em> This move is okay, I&rsquo;m finding it easier to hold myself up but I&rsquo;m not sure if I&rsquo;m holding myself up high enough.</li>
-<li><em>The Hundred:</em> These still are pretty hard for me but when Cassey turned from table top to straight let, I was surprised at how it didn&rsquo;t get much harder. I can feel myself do these better and without as much strain in my neck!</li>
-<li><em>Bridge Pulses:</em> This is a new move! At first it felt really easy to do but then I started to really feel it in my butt. Now, whenever Cassey says, &ldquo;you&rsquo;ll feel it in your butt,&rdquo; I never do so this is a first for me.</li>
-<li><em>Double Leg Lift:</em> I still don&rsquo;t know how to position my hands so that my tailbone doesn&rsquo;t hurt&#8230;</li>
-<li><em>Half Cobra Pushup:</em> The cobra moves are a little bit more easier to do every time.</li>
-<li><em>Parachuter:</em> Another new move! This move is cool but I have no idea if I&rsquo;m doing it right. I feels like I&rsquo;m lifting my body up but again, is it high enough? I don&rsquo;t know.</li>
+<li>ASW-1 LAN will require 7 host IP addresses</li>
+<li>ASW-2 LAN will require 15 host IP addresses</li>
+<li>ASW-3 LAN will require 29 host IP addresses</li>
+<li>ASW-4 LAN will require 58 host IP addresses</li>
 </ul>
 
-<h3 id="video-3-stretches-to-relieve-lower-back-pain">Video 3: Stretches to Relieve Lower Back Pain</h3>
+<h5 id="how-many-subnets-are-needed-in-the-network-topology">How many subnets are needed in the network topology?</h5>
 
-<p>I tend to slouch a lot but lately I&rsquo;m becoming more conscious of my posture. My back surprisingly hurts more than usual so I was hoping these would help me in some way.</p>
+<p><a href="http://scattered.me/wp-content/uploads/2016/06/8.png"><img src="http://scattered.me/wp-content/uploads/2016/06/8.png" alt="8" width="571" height="358" class="alignnone size-full wp-image-11245" srcset="http://erzadel.net/blog/wp-content/uploads/2016/06/8.png 571w, http://erzadel.net/blog/wp-content/uploads/2016/06/8-300x188.png 300w" sizes="(max-width: 571px) 100vw, 571px" /></a></p>
 
-<div class="flex-video">
-</div>
+<p><strong>5 subnets are needed.</strong> If you look at the topology, there are 4 LANs (coloured in orange) and 1 serial connection between Building1 and Building2. Therefore, you need 5 subnets.</p>
+
+<h4 id="a-name-1-2-a-step-2-determine-the-subnet-mask-information-for-each-subnet"><a name="1-2"></a>Step 2: Determine the subnet mask information for each subnet.</h4>
+
+<p>The original subnet mask of the network address is 255.255.255.0. This comes from the prefix length /24, which indicates that there are 24 bits set in the subnet mask. We will use this as the basis for subnetting.</p>
+
+<table>
+  <tr>
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      00000000
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      00000000
+    </td>
+  </tr>
+</table>
+
+<h5 id="a-which-subnet-mask-will-accommodate-the-number-of-ip-addresses-required-for-asw-1">a. Which subnet mask will accommodate the number of IP addresses required for ASW-1?</h5>
+
+<p><strong>255.255.255.240 with a prefix length of /28.</strong></p>
+
+<p>First, calculate the number of host bits that will be able to contain at least 7 hosts. (2^n-2\</p>
+
+<p>= 2^4 &#8211; 2\</p>
+
+<p>= 14 usable &gt;= 7 required)</p>
+
+<p>14 is greater than 7, so this gives 4 bits are not set in the subnet mask.</p>
+
+<table>
+  <tr>
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      240
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      128+64+32+16+8+2+1
+    </td>
+    
+    <td>
+      128+64+32+16+8+2+1
+    </td>
+    
+    <td>
+      128+64+32+16+8+2+1
+    </td>
+    
+    <td>
+      128+64+32+16
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11110000
+    </td>
+  </tr>
+</table>
+
+<h5 id="how-many-usable-host-addresses-will-this-subnet-support">How many usable host addresses will this subnet support?</h5>
+
+<p><strong>14</strong>. This comes from the formula in the previous question.</p>
+
+<h5 id="b-which-subnet-mask-will-accommodate-the-number-of-ip-addresses-required-for-asw-2">b. Which subnet mask will accommodate the number of IP addresses required for ASW-2?</h5>
+
+<p><strong>255.255.255.224 with a prefix length of /27.</strong> (2^n-2\</p>
+
+<p>= 2^5 &#8211; 2\</p>
+
+<p>= 30 usable &gt;= 15 required)</p>
+
+<table>
+  <tr>
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      224
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11100000
+    </td>
+  </tr>
+</table>
+
+<h5 id="how-many-usable-host-addresses-will-this-subnet-support-1">How many usable host addresses will this subnet support?</h5>
+
+<p><strong>30.</strong></p>
+
+<h5 id="c-which-subnet-mask-will-accommodate-the-number-of-ip-addresses-required-for-asw-3">c. Which subnet mask will accommodate the number of IP addresses required for ASW-3?</h5>
+
+<p><strong>255.255.255.224 with a prefix length of /27.</strong> (2^n-2\</p>
+
+<p>= 2^5 &#8211; 2\</p>
+
+<p>= 30 usable &gt;= 29 required)</p>
+
+<table>
+  <tr>
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      224
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11100000
+    </td>
+  </tr>
+</table>
+
+<h5 id="how-many-usable-host-addresses-will-this-subnet-support-2">How many usable host addresses will this subnet support?</h5>
+
+<p><strong>30.</strong></p>
+
+<h5 id="d-which-subnet-mask-will-accommodate-the-number-of-ip-addresses-required-for-asw-4">d. Which subnet mask will accommodate the number of IP addresses required for ASW-4?</h5>
+
+<p><strong>255.255.255.192 with a prefix length of /26.</strong> (2^n-2\</p>
+
+<p>= 2^6 &#8211; 2\</p>
+
+<p>= 62 usable &gt;= 58 required)</p>
+
+<table>
+  <tr>
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      224
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11000000
+    </td>
+  </tr>
+</table>
+
+<h5 id="how-many-usable-host-addresses-will-this-subnet-support-3">How many usable host addresses will this subnet support?</h5>
+
+<p><strong>62.</strong></p>
+
+<h5 id="e-which-subnet-mask-will-accommodate-the-number-of-ip-addresses-required-for-the-connection-between-building1-and-building2">e. Which subnet mask will accommodate the number of IP addresses required for the connection between Building1 and Building2?</h5>
+
+<p><strong>255.255.255.2552 with a prefix length of /30.</strong></p>
+
+<p>We can use one subnet for the WAN. Since there are only two routers involved, we just need two addresses for this subnet. (2^n-2\</p>
+
+<p>= 2^2 &#8211; 2\</p>
+
+<p>= 2 usable &gt;= 2 required)</p>
+
+<table>
+  <tr>
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      255
+    </td>
+    
+    <td>
+      252
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111111
+    </td>
+    
+    <td>
+      11111100
+    </td>
+  </tr>
+</table>
+
+<h3 id="a-name-2-a-part-2-design-the-vlsm-addressing-schstronge"><a name="2"></a>Part 2: Design the VLSM Addressing Schstronge</h3>
+
+<h4 id="a-name-2-1-a-step-1-divide-the-192-168-72-0-24-network-based-on-the-number-of-hosts-per-subnet"><a name="2-1"></a>Step 1: Divide the 192.168.72.0/24 network based on the number of hosts per subnet.</h4>
+
+<h5 id="a-use-the-first-subnet-to-accommodate-the-largest-lan">a. Use the first subnet to accommodate the largest LAN.</h5>
+
+<p><strong>192.168.72.0/26.</strong> The largest LAN is ASW-4 with 58 hosts. Subnet 192.168.72.0/24 into 192.168.72.0/26. This will give us 4 subnets ((2^2 = 4)) with 64 hosts per subnet.</p>
+
+<p>The subnets are:</p>
 
 <ul>
-<li><em>Seated Twist:</em> These felt really good! I do a variation of this whenever I&rsquo;m sitting down.</li>
-<li><em>Pretzel:</em> Cassey claims that this move was a typical gym class move but I&rsquo;m not sure I remember it! I didn&rsquo;t feel this one as much but it was surprising to me to find out that I&rsquo;m more flexible on my right compared to my left side.</li>
-<li><em>Cobra:</em> I just can&rsquo;t seem to escape the cobras&#8230; Maybe that&rsquo;s a good thing because it&rsquo;s the thing that I need to work on the most!</li>
-<li><em>Scorpion Twist:</em> Hmmm, I don&rsquo;t really see the correlation with a scorpion but this was a fun move regardless. I didn&rsquo;t have much room to do these but it was still a good stretch.</li>
-<li><em>Cat-Dog:</em> This reminds me of like otso-otso in slow motion. Below my shoulders it kind of started to hurt. I didn&rsquo;t feel much of a stretch but I really tried to mimic the ost-otso flow, haha!</li>
+<li>192.168.72.0</li>
+<li>192.168.72.64</li>
+<li>192.168.72.128</li>
+<li>192.168.72.192</li>
 </ul>
 
-<h3 id="thoughts">Thoughts</h3>
+<p>Since the subnets each contain 64 hosts, simple add 64 to the last octet. This method will not be as feasible for subnets with a large number of hosts. Another way is to convert everything to binary. Only the first 2 bits will change while the rstrongaining 6 bits stay the same.</p>
 
-<p>First day of week 2 is over! Today was a little slow with the recap and just a couple of new moves. The cardio wasn&rsquo;t as heart pumping as I wanted it to be, solely my fault. I&rsquo;m a little skeptical of the stretches videos because they seem so &ldquo;complimentary&rdquo; to the cardio and workout video but it&rsquo;s a good way to wind down!</p>
+<table>
+  <tr>
+    <td>
+      192.168.72.0
+    </td>
+    
+    <td>
+      110000.10101000.01001000.<strong>00</strong>000000
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.64
+    </td>
+    
+    <td>
+      110000.10101000.01001000.<strong>01</strong>000000
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.128
+    </td>
+    
+    <td>
+      110000.10101000.01001000.<strong>10</strong>000000
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.192
+    </td>
+    
+    <td>
+      110000.10101000.01001000.<strong>11</strong>000000
+    </td>
+  </tr>
+</table>
+
+<h5 id="b-use-the-second-subnet-to-accommodate-the-second-largest-lan">b. Use the second subnet to accommodate the second largest LAN.</h5>
+
+<p><strong>192.168.72.<sup>64</sup>&frasl;<sub>27</sub>.</strong>. We are using the second subnet because we are reserving the first subnet for the ASW-4 network. The second largest LAN is ASW-3 with 29 hosts. Subnet 192.168.72.<sup>62</sup>&frasl;<sub>26</sub> into 192.168.72.<sup>62</sup>&frasl;<sub>27</sub>. This will give 2 subnets ((2^1 = 2)) with 32 hosts per subnet. We use (2^1) because the base is /26 and /27 is only one bit longer.</p>
+
+<p>The subnets are:</p>
+
+<ul>
+<li>192.168.72.64</li>
+<li>192.168.72.96</li>
+</ul>
+
+<table>
+  <tr>
+    <td>
+      192.168.72.64
+    </td>
+    
+    <td>
+      110000.10101000.01001000.01<strong></strong>00000
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.96
+    </td>
+    
+    <td>
+      110000.10101000.01001000.01<strong>1</strong>00000
+    </td>
+  </tr>
+</table>
+
+<h5 id="c-use-the-third-subnet-to-accommodate-the-third-largest-lan">c. Use the third subnet to accommodate the third largest LAN.</h5>
+
+<p><strong>192.168.72.<sup>96</sup>&frasl;<sub>27</sub>.</strong> The third largest LAN is ASW-2 with 15 hosts. In the previous question, we already have 2 subnets that have 32 addresses each. The second subnet will be able to accomodate ASW-2. So we do not need to subnet further.</p>
+
+<h5 id="d-use-the-fourth-subnet-to-accommodate-the-fourth-largest-lan">d. Use the fourth subnet to accommodate the fourth largest LAN.</h5>
+
+<p><strong>192.168.72.<sup>128</sup>&frasl;<sub>28</sub>.</strong> Subnet 192.168.72.<sup>128</sup>&frasl;<sub>26</sub> into 192.168.72.<sup>128</sup>&frasl;<sub>28</sub>. This will give 4 subnets ((2^2 = 4)) with 16 hosts per subnet. We use (2^2) because the base is /26 and /28 is two bits longer.</p>
+
+<p>The subnets are:</p>
+
+<ul>
+<li>192.168.72.128</li>
+<li>192.168.72.144</li>
+<li>192.168.72.160</li>
+<li>192.168.72.176</li>
+</ul>
+
+<table>
+  <tr>
+    <td>
+      192.168.72.128
+    </td>
+    
+    <td>
+      110000.10101000.01001000.10<strong>00</strong>0000
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.144
+    </td>
+    
+    <td>
+      110000.10101000.01001000.10<strong>01</strong>0000
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.160
+    </td>
+    
+    <td>
+      110000.10101000.01001000.10<strong>10</strong>0000
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.176
+    </td>
+    
+    <td>
+      110000.10101000.01001000.10<strong>11</strong>0000
+    </td>
+  </tr>
+</table>
+
+<h5 id="e-use-the-fifth-subnet-to-accommodate-the-connection-between-building1-and-building2">e. Use the fifth subnet to accommodate the connection between Building1 and Building2.</h5>
+
+<p><strong>192.168.72.<sup>145</sup>&frasl;<sub>30</sub> and 192.168.72.<sup>146</sup>&frasl;<sub>30</sub>.</strong> Subnet 192.168.72.<sup>144</sup>&frasl;<sub>28</sub> into 192.168.72.<sup>144</sup>&frasl;<sub>30</sub>. This will give 4 subnets ((2^2 = 4)) with 2 hosts per subnet.</p>
+
+<p>The subnets are:</p>
+
+<ul>
+<li>192.168.72.144</li>
+<li>192.168.72.148</li>
+<li>192.168.72.152</li>
+<li>192.168.72.156</li>
+</ul>
+
+<table>
+  <tr>
+    <td>
+      192.168.72.144
+    </td>
+    
+    <td>
+      110000.10101000.01001000.1001<strong>00</strong>00
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.148
+    </td>
+    
+    <td>
+      110000.10101000.01001000.1001<strong>01</strong>00
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.152
+    </td>
+    
+    <td>
+      110000.10101000.01001000.1001<strong>10</strong>00
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      192.168.72.156
+    </td>
+    
+    <td>
+      110000.10101000.01001000.1001<strong>11</strong>00
+    </td>
+  </tr>
+</table>
+
+<h4 id="a-name-2-2-a-step-2-document-the-vlsm-subnets"><a name="2-2"></a>Step 2: Document the VLSM subnets.</h4>
+
+<p>Complete the Subnet Table, listing the subnet descriptions (e.g. ASW-1 LAN), number of hosts needed, then network address for the subnet, the first usable host address, and the broadcast address. Repeat until all addresses are listed.</p>
+
+<h5 id="subnet-table">Subnet Table</h5>
+
+<table>
+<thead>
+<tr>
+<th>Subnet Description</th>
+<th>Number of Hosts Needed</th>
+<th>Network Address/CIDR</th>
+<th>First Usable Host Address</th>
+<th>Broadcast Address</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>ASW-1 LAN</td>
+<td>7</td>
+<td>192.168.72.<sup>128</sup>&frasl;<sub>28</sub></td>
+<td>192.168.128.129</td>
+<td>192.168.128.143</td>
+</tr>
+
+<tr>
+<td>ASW-2 LAN</td>
+<td>15</td>
+<td>192.168.72.<sup>64</sup>&frasl;<sub>27</sub></td>
+<td>192.168.72.65</td>
+<td>192.168.72.95</td>
+</tr>
+
+<tr>
+<td>ASW-3 LAN</td>
+<td>29</td>
+<td>192.168.72.<sup>96</sup>&frasl;<sub>27</sub></td>
+<td>192.168.72.97</td>
+<td>192.168.72.127</td>
+</tr>
+
+<tr>
+<td>ASW-4 LAN</td>
+<td>58</td>
+<td>192.168.72.0/26</td>
+<td>192.168.72.1</td>
+<td>192.168.72.63</td>
+</tr>
+
+<tr>
+<td>Serial WAN</td>
+<td>2</td>
+<td>192.168.72.<sup>144</sup>&frasl;<sub>30</sub></td>
+<td>192.168.72.145</td>
+<td>192.168.72.147</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="a-name-2-3-a-step-3-document-the-addressing-schstronge"><a name="2-3"></a>Step 3: Document the addressing schstronge.</h4>
+
+<h5 id="a-assign-the-first-usable-ip-addresses-to-building1-for-the-two-lan-links-and-the-wan-link">a. Assign the first usable IP addresses to Building1 for the two LAN links and the WAN link.</h5>
+
+<ul>
+<li>ASW-1 LAN: 192.168.72.129</li>
+<li>ASW-2 LAN: 192.168.72.97</li>
+<li>Serial WAN: 192.168.72.145</li>
+</ul>
+
+<h5 id="b-assign-the-first-usable-ip-addresses-to-building2-for-the-two-lans-links-assign-the-last-usable-ip-address-for-the-wan-link">b. Assign the first usable IP addresses to Building2 for the two LANs links. Assign the last usable IP address for the WAN link.</h5>
+
+<ul>
+<li>ASW-3 LAN: 192.168.72.65</li>
+<li>ASW-4 LAN: 192.168.72.1</li>
+<li>Serial WAN: 192.168.72.146</li>
+</ul>
+
+<h5 id="c-assign-the-second-usable-ip-addresses-to-the-switches">c. Assign the second usable IP addresses to the switches.</h5>
+
+<ul>
+<li>ASW-1: 192.168.72.130</li>
+<li>ASW-2: 192.168.72.98</li>
+<li>ASW-3: 192.168.72.66</li>
+<li>ASW-4: 192.168.72.2</li>
+</ul>
+
+<h5 id="d-assign-the-last-usable-ip-addresses-to-the-hosts">d. Assign the last usable IP addresses to the hosts.</h5>
+
+<ul>
+<li>Host-A: 192.168.72.142</li>
+<li>Host-B: 192.168.72.94</li>
+<li>Host-C: 192.168.72.126</li>
+<li>Host-D: 192.168.72.62</li>
+</ul>
+
+<h3 id="a-name-3-a-part-3-assign-ip-addresses-to-devices-and-verify-connectivity"><a name="3"></a>Part 3: Assign IP Addresses to Devices and Verify Connectivity</h3>
+
+<p>Now it&rsquo;s just a matter of plugging in values into Packet Tracer if you haven&rsquo;t already.</p>
+
+<h3 id="a-name-answers-a-addressing-table"><a name="answers"></a>Addressing Table</h3>
+
+<p><td rowspan="3">
+  Remote-Site 1
+</td></p>
+
+<p><td rowspan="3">
+  Remote-Site 2
+</td></p>
+
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Interface</th>
+<th>IP Address</th>
+<th>Subnet Mask</th>
+<th>Default Gateway</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>G0/0</td>
+<td>192.168.72.129</td>
+<td>255.255.255.240</td>
+<td>N/A</td>
+<td></td>
+</tr>
+
+<tr>
+<td>G0/1</td>
+<td>192.168.72.97</td>
+<td>255.255.255.224</td>
+<td>N/A</td>
+<td></td>
+</tr>
+
+<tr>
+<td>S0/0/0</td>
+<td>192.168.72.145</td>
+<td>255.255.255.252</td>
+<td>N/A</td>
+<td></td>
+</tr>
+
+<tr>
+<td>G0/0</td>
+<td>192.168.72.65</td>
+<td>255.255.255.224</td>
+<td>N/A</td>
+<td></td>
+</tr>
+
+<tr>
+<td>G0/1</td>
+<td>192.168.72.1</td>
+<td>255.255.255.192</td>
+<td>N/A</td>
+<td></td>
+</tr>
+
+<tr>
+<td>S0/0/0</td>
+<td>192.168.72.146</td>
+<td>255.255.255.252</td>
+<td>N/A</td>
+<td></td>
+</tr>
+
+<tr>
+<td>SW1</td>
+<td>VLAN 1</td>
+<td>192.168.72.130</td>
+<td>255.255.255.240</td>
+<td>192.168.72.129</td>
+</tr>
+
+<tr>
+<td>SW2</td>
+<td>VLAN 1</td>
+<td>192.168.72.98</td>
+<td>255.255.255.224</td>
+<td>192.168.72.97</td>
+</tr>
+
+<tr>
+<td>SW3</td>
+<td>VLAN 1</td>
+<td>192.168.72.66</td>
+<td>255.255.255.224</td>
+<td>192.168.72.65</td>
+</tr>
+
+<tr>
+<td>SW4</td>
+<td>VLAN 1</td>
+<td>192.168.72.2</td>
+<td>255.255.255.192</td>
+<td>192.168.72.1</td>
+</tr>
+
+<tr>
+<td>User-1</td>
+<td>NIC</td>
+<td>192.168.72.142</td>
+<td>255.255.255.240</td>
+<td>192.168.72.129</td>
+</tr>
+
+<tr>
+<td>User-2</td>
+<td>NIC</td>
+<td>192.168.72.126</td>
+<td>255.255.255.224</td>
+<td>192.168.72.97</td>
+</tr>
+
+<tr>
+<td>User-3</td>
+<td>NIC</td>
+<td>192.168.72.94</td>
+<td>255.255.255.224</td>
+<td>192.168.72.65</td>
+</tr>
+
+<tr>
+<td>User-4</td>
+<td>NIC</td>
+<td>192.168.72.62</td>
+<td>255.255.255.192</td>
+<td>192.168.72.1</td>
+</tr>
+</tbody>
+</table>
 
 
       </div>
@@ -503,6 +1180,14 @@
 
     
 
+    <li><a href="/categories/programming">programming</a></li>
+
+    
+
+    
+
+    
+
     <li><a href="/categories/knitting">knitting</a></li>
 
     
@@ -511,7 +1196,7 @@
 
     
 
-    <li><a href="/categories/programming">programming</a></li>
+    <li><a href="/categories/technology">technology</a></li>
 
     
 
@@ -527,7 +1212,7 @@
 
     
 
-    <li><a href="/categories/technology">technology</a></li>
+    <li><a href="/categories/knowledge-base">knowledge-base</a></li>
 
     
 
@@ -632,6 +1317,14 @@
     
 
     <li><a href="/categories/tech">tech</a></li>
+
+    
+
+    
+
+    
+
+    <li><a href="/categories/video-games">video-games</a></li>
 
     
 

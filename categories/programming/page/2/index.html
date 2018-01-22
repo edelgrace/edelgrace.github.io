@@ -57,6 +57,40 @@
       <article>
         <div class="article">
 
+          <h3><a href="http://edelgrace.me/blog/til-best-first-search-and-local-maxima-problem/">TIL: Best First Search and Local Maxima Problem</a></h3>
+          <h4>Jan 2, 2017 | <a href="http://edelgrace.me/blog/til-best-first-search-and-local-maxima-problem/#disqus_thread">Comments</a></h4>
+          
+          <div class="tags">
+              <ul>
+                
+                <li><a href="/categories/programming">Programming</a></li>            
+                
+    
+                
+                <li><a href="/tags/ai">#AI</a></li>
+                
+                <li><a href="/tags/algorithms">#algorithms</a></li>
+                
+                <li><a href="/tags/til">#TIL</a></li>
+                
+              </ul>
+          </div>
+
+          <p><p>Okay, this wasn&rsquo;t the first time I learned about this but I did relearn this while talking to my SO about the AI textbook he was reading.</p>
+
+<p>There&rsquo;s a concept called best first search. The basic example is traversing through a tree. Each node that the algorithm visits, it adds the node to an array solely for visited nodes. It keeps another array for nodes it hasn&rsquo;t yet visited. While it traverses through the nodes, it sorts the visited node array so that the best node is at the start of the array.</p>
+
+<p>This does pose the problem of local maxima. The best search first algorithm gives the best result at that moment for the current search space. So it doesn&rsquo;t focus on efficiency but reducing the search space. This doesn&rsquo;t guarantee the best solution at any point in the search but the best solution for that point of time in the search (if that makes any sense at all).</p>
+</p>
+
+        </div>
+      </article>
+
+      
+
+      <article>
+        <div class="article">
+
           <h3><a href="http://edelgrace.me/blog/silly-mistakes/">Silly Mistakes</a></h3>
           <h4>Oct 31, 2016 | <a href="http://edelgrace.me/blog/silly-mistakes/#disqus_thread">Comments</a></h4>
           
@@ -81,6 +115,79 @@
 <p>I forgot to save the database after making all the changes. For some reason I was grinning ear to ear, thinking &ldquo;I&rsquo;m so stupid&rdquo; in my head. The project manager was walking by my desk and looked at me weirdly.</p>
 
 <p>I know for sure I&rsquo;m not making that mistake again!</p>
+</p>
+
+        </div>
+      </article>
+
+      
+
+      <article>
+        <div class="article">
+
+          <h3><a href="http://edelgrace.me/blog/python-cookies-and-requests/">Python: Cookies and Requests</a></h3>
+          <h4>Oct 29, 2016 | <a href="http://edelgrace.me/blog/python-cookies-and-requests/#disqus_thread">Comments</a></h4>
+          
+          <div class="tags">
+              <ul>
+                
+                <li><a href="/categories/knowledge-base">Knowledge Base</a></li>            
+                
+                <li><a href="/categories/programming">Programming</a></li>            
+                
+    
+                
+                <li><a href="/tags/python">#python</a></li>
+                
+                <li><a href="/tags/python-requests">#python: requests</a></li>
+                
+              </ul>
+          </div>
+
+          <p><pre>import requests
+
+cookie = r.cookies['cookie_name']
+cookie = { 'cookie_name': cookie }
+
+requests.post(url, cookies=cookie)</pre>
+</p>
+
+        </div>
+      </article>
+
+      
+
+      <article>
+        <div class="article">
+
+          <h3><a href="http://edelgrace.me/blog/python-parsing-xml/">Python: Parsing XML</a></h3>
+          <h4>Oct 19, 2016 | <a href="http://edelgrace.me/blog/python-parsing-xml/#disqus_thread">Comments</a></h4>
+          
+          <div class="tags">
+              <ul>
+                
+                <li><a href="/categories/knowledge-base">Knowledge Base</a></li>            
+                
+                <li><a href="/categories/programming">Programming</a></li>            
+                
+    
+                
+                <li><a href="/tags/python">#python</a></li>
+                
+                <li><a href="/tags/xml">#xml</a></li>
+                
+              </ul>
+          </div>
+
+          <p><pre>import xml.etree.Element as ET
+
+# from string
+root = ET.fromstring(string)
+
+# from file
+
+tree = ET.parase(file)
+root = tree.getroot()</pre>
 </p>
 
         </div>
@@ -218,6 +325,14 @@
 
     
 
+    <li><a href="/categories/programming">programming</a></li>
+
+    
+
+    
+
+    
+
     <li><a href="/categories/knitting">knitting</a></li>
 
     
@@ -226,7 +341,7 @@
 
     
 
-    <li><a href="/categories/programming">programming</a></li>
+    <li><a href="/categories/technology">technology</a></li>
 
     
 
@@ -242,7 +357,7 @@
 
     
 
-    <li><a href="/categories/technology">technology</a></li>
+    <li><a href="/categories/knowledge-base">knowledge-base</a></li>
 
     
 
@@ -347,6 +462,14 @@
     
 
     <li><a href="/categories/tech">tech</a></li>
+
+    
+
+    
+
+    
+
+    <li><a href="/categories/video-games">video-games</a></li>
 
     
 

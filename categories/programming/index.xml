@@ -61,6 +61,16 @@ I always forget this command. I always try to attempt to go mysql dump instead o
     </item>
     
     <item>
+      <title>TIL: Best First Search and Local Maxima Problem</title>
+      <link>http://edelgrace.me/blog/til-best-first-search-and-local-maxima-problem/</link>
+      <pubDate>Mon, 02 Jan 2017 06:40:16 +0000</pubDate>
+      
+      <guid>http://edelgrace.me/blog/til-best-first-search-and-local-maxima-problem/</guid>
+      <description>Okay, this wasn&amp;rsquo;t the first time I learned about this but I did relearn this while talking to my SO about the AI textbook he was reading.
+There&amp;rsquo;s a concept called best first search. The basic example is traversing through a tree. Each node that the algorithm visits, it adds the node to an array solely for visited nodes. It keeps another array for nodes it hasn&amp;rsquo;t yet visited. While it traverses through the nodes, it sorts the visited node array so that the best node is at the start of the array.</description>
+    </item>
+    
+    <item>
       <title>Silly Mistakes</title>
       <link>http://edelgrace.me/blog/silly-mistakes/</link>
       <pubDate>Mon, 31 Oct 2016 22:04:29 +0000</pubDate>
@@ -68,6 +78,24 @@ I always forget this command. I always try to attempt to go mysql dump instead o
       <guid>http://edelgrace.me/blog/silly-mistakes/</guid>
       <description>At work I&amp;rsquo;m writing a simple script in Python that pulls data from a sqlite database. I was doing some inserts and deletes and I was wondering why the database wasn&amp;rsquo;t changing. I tried printing out the queries and double checking that they were indeed correct syntax-wise. I traced my program line by line up to the point where queries were being executed. Finally, I turned to Google.
 Stackoverflow, of course, delivered.</description>
+    </item>
+    
+    <item>
+      <title>Python: Cookies and Requests</title>
+      <link>http://edelgrace.me/blog/python-cookies-and-requests/</link>
+      <pubDate>Sat, 29 Oct 2016 01:47:03 +0000</pubDate>
+      
+      <guid>http://edelgrace.me/blog/python-cookies-and-requests/</guid>
+      <description>import requests cookie = r.cookies[&#39;cookie_name&#39;] cookie = { &#39;cookie_name&#39;: cookie } requests.post(url, cookies=cookie) </description>
+    </item>
+    
+    <item>
+      <title>Python: Parsing XML</title>
+      <link>http://edelgrace.me/blog/python-parsing-xml/</link>
+      <pubDate>Wed, 19 Oct 2016 01:56:22 +0000</pubDate>
+      
+      <guid>http://edelgrace.me/blog/python-parsing-xml/</guid>
+      <description>import xml.etree.Element as ET # from string root = ET.fromstring(string) # from file tree = ET.parase(file) root = tree.getroot() </description>
     </item>
     
     <item>

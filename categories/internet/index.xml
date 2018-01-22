@@ -13,20 +13,20 @@
     
     <item>
       <title>LFTP Fatal Error: Certificate verification</title>
-      <link>http://edelgrace.me/life/lftp-fatal-error-certificate-verification/</link>
+      <link>http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/</link>
       <pubDate>Tue, 11 Oct 2016 01:48:31 +0000</pubDate>
       
-      <guid>http://edelgrace.me/life/lftp-fatal-error-certificate-verification/</guid>
+      <guid>http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/</guid>
       <description>The error: ~$ git-ftp pull&amp;lt;br /&amp;gt; ~$ cd: Fatal error: Certificate verification: certificate common name doesn&amp;rsquo;t match requested host name ‘ftp.mazohyst.org’&amp;lt;br /&amp;gt; ~$ mirror: Fatal error: Certificate verification: certificate common name doesn&amp;rsquo;t match requested host name ‘ftp.mazohyst.org’
 Solution: Edit ~/.lftp/rc so that it contains set ssl:check-hostname no. What this does is pretty self explanatory. If the hostname in the certificate does not match the hostname you&amp;rsquo;re attempting to connect to, it doesn&amp;rsquo;t matter because it won&amp;rsquo;t check for that in the first place.</description>
     </item>
     
     <item>
       <title>Speaking of Security</title>
-      <link>http://edelgrace.me/life/speaking-of-security/</link>
+      <link>http://edelgrace.me/blog/speaking-of-security/</link>
       <pubDate>Tue, 07 Jun 2016 22:37:46 +0000</pubDate>
       
-      <guid>http://edelgrace.me/life/speaking-of-security/</guid>
+      <guid>http://edelgrace.me/blog/speaking-of-security/</guid>
       <description>My last post was about security by obscurity and I talked a little about trying to implement security techniques into my projects. This is really great timing.
 Last week, various online services ran by my university were down. It was really inconvenient not having access to my e-mail but I took it in stride. I figured it was just the servers acting up or malware or something like that. It turns out that my university was dealing with a ransomware attack.</description>
     </item>

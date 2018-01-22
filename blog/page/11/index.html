@@ -54,6 +54,75 @@
     <article>
       <div class="article">
 
+        <h3><a href="http://edelgrace.me/blog/til-how-to-set-up-virtual-hosts-on-apache/">TIL: How to Set Up Virtual Hosts on Apache</a></h3>
+        <h4>Apr 2, 2017 | <a href="http://edelgrace.me/blog/til-how-to-set-up-virtual-hosts-on-apache/#disqus_thread">Comments</a></h4>
+        
+        <div class="tags">
+            <ul>
+              
+              <li><a href="/categories/websites">Websites</a></li>            
+              
+  
+              
+              <li><a href="/tags/apache">#apache</a></li>
+              
+              <li><a href="/tags/virtual-hosts">#virtual hosts</a></li>
+              
+            </ul>
+        </div>
+
+        <p><strong>Create a virtual host configuration file <em>site-name.conf</em> for the site:</strong></p>
+
+<pre><code>sudo vim /etc/apache2/sites-available/&lt;em&gt;site-name.conf&lt;/em&gt;
+</code></pre>
+
+<p>Inside the file:</p>
+
+<pre><code>&lt;VirtualHost *:80&gt;
+    ServerAdmin &lt;em&gt;email&lt;/em&gt;
+    ServerName &lt;em&gt;domain name&lt;/em&gt;
+    ServerAlias &lt;em&gt;domain name&lt;/em&gt;
+    DocumentRoot &lt;em&gt;path to folder no slash at the end&lt;/em&gt;
+    ErrorLog &lt;em&gt;path to error log&lt;/em&gt;
+    CustomLog &lt;em&gt;path to access log&lt;/em&gt;
+
+    &lt;Directory /&gt;
+        Options FollowSymLinks
+        AllowOverride All
+    &lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<p><strong>Add the site to the host file:</strong></p>
+
+<pre><code>sudo vim /etc/hosts
+</code></pre>
+
+<p>Inside the file:</p>
+
+<pre><code>127.0.0.1 localhost.localdomain localhost
+127.0.0.1 stashofyarn.ca stashofyarn
+</code></pre>
+
+<p><strong>Enable the site:</strong></p>
+
+<pre><code>sudo a2ensite &lt;em&gt;site-name.conf&lt;/em&gt;
+</code></pre>
+
+<p><strong>Reload the Apache service in sudo mode:</strong></p>
+
+<pre><code>sudo service apache2 reload
+</code></pre>
+
+
+      </div>
+    </article>
+
+    
+
+    <article>
+      <div class="article">
+
         <h3><a href="http://edelgrace.me/blog/fo-4-natcromo2017-mystery-crochet-along/">FO #4: NatCroMo2017 Mystery Crochet Along</a></h3>
         <h4>Mar 31, 2017 | <a href="http://edelgrace.me/blog/fo-4-natcromo2017-mystery-crochet-along/#disqus_thread">Comments</a></h4>
         
@@ -200,38 +269,6 @@
 <p>It was observations like these, the ones where I found myself in them, that made me really appreciate this book. However there was something about Clune&rsquo;s style of narration that didn&rsquo;t jive with me. Perhaps, I disliked Clune&rsquo;s portrayal of himself. There was no redemption moment for Clune and no real moments of growth.</p>
 
 <p>Would I recommend this to someone? Yeah, I think it has value. The main reason why I didn&rsquo;t enjoy this as much as I could have is probably a matter of preference.</p>
-
-
-      </div>
-    </article>
-
-    
-
-    <article>
-      <div class="article">
-
-        <h3><a href="http://edelgrace.me/blog/fo-3-dots-little-ditty-bag-perpetually-loading/">FO #3: Dot’s Little Ditty Bag – Perpetually Loading</a></h3>
-        <h4>Mar 26, 2017 | <a href="http://edelgrace.me/blog/fo-3-dots-little-ditty-bag-perpetually-loading/#disqus_thread">Comments</a></h4>
-        
-        <div class="tags">
-            <ul>
-              
-              <li><a href="/categories/crochet">Crochet</a></li>            
-              
-  
-              
-              <li><a href="/tags/fo">#FO</a></li>
-              
-            </ul>
-        </div>
-
-        <p>I made this little bag mostly while playing the MMO <em>Blade &amp; Soul</em>, hence the title &ldquo;Perpetually Loading.&rdquo; My computer is a bit of a toaster so I managed to get a lot of crocheting done while on the loading screen. Sometimes my game would crash on the loading screen and that would mean even more crocheting for me! Unfortunately, this worked out to the disadvantage of my SO who I was playing with at the time.</p>
-
-<p>This is my very first ever bag. I think it&rsquo;s pretty cute! I ran out of orange yarn so close to the end so I ended up having to use green for the last one and a half rows. I was so close but I lost the chicken yarn (starting a project with a partially used skein when you don&rsquo;t know if it will last the whole project).</p>
-
-<p>I don&rsquo;t think I would ever use it but I am so happy with it! Now, what should I do with it?</p>
-
-<p><img data-attachment-id="342" data-permalink="http://edelgrace.me/blog/crochet/fo-3-dots-little-ditty-bag-perpetually-loading/attachment/20170305_153940/" data-orig-file="https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?fit=3264%2C1836" data-orig-size="3264,1836" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;LG-K210&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1488728380&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.18&quot;,&quot;iso&quot;:&quot;500&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="20170305_153940" data-image-description="" data-medium-file="https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?fit=300%2C169" data-large-file="https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?fit=663%2C373" src="https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?resize=663%2C373" alt="" class="aligncenter size-full wp-image-342" srcset="https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?w=3264 3264w, https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?resize=300%2C169 300w, https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?resize=768%2C432 768w, https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?resize=1024%2C576 1024w, https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?resize=982%2C552 982w, https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?resize=400%2C225 400w, https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?w=1326 1326w, https://i2.wp.com/edelgrace.me/blog/wp-content/uploads/2017/03/20170305_153940.jpg?w=1989 1989w" sizes="(max-width: 663px) 100vw, 663px" data-recalc-dims="1" /></p>
 
 
       </div>
@@ -423,6 +460,14 @@
     
 
     <li><a href="/categories/anime">anime</a></li>
+
+    
+
+    
+
+    
+
+    <li><a href="/categories/food">food</a></li>
 
     
 

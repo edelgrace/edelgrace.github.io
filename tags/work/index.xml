@@ -13,10 +13,10 @@
     
     <item>
       <title>TIL: Adding Policies in Cisco Firewalls</title>
-      <link>http://edelgrace.me/networking/til-adding-policies-in-cisco-firewalls/</link>
+      <link>http://edelgrace.me/blog/til-adding-policies-in-cisco-firewalls/</link>
       <pubDate>Thu, 05 Jan 2017 05:26:38 +0000</pubDate>
       
-      <guid>http://edelgrace.me/networking/til-adding-policies-in-cisco-firewalls/</guid>
+      <guid>http://edelgrace.me/blog/til-adding-policies-in-cisco-firewalls/</guid>
       <description>Identify traffic with an access-list
 access-list acl-name permit ip source destination dscp dscp-value Apply the access-list with the dscp value to an interfact
 class-map match-all interface match ip dscp dscp-value Apply the policy

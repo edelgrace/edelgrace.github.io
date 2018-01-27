@@ -23,7 +23,7 @@
     <item>
       <title>Books</title>
       <link>http://edelgrace.me/categories/books/</link>
-      <pubDate>Sun, 06 Aug 2017 04:07:17 +0000</pubDate>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://edelgrace.me/categories/books/</guid>
       <description></description>
@@ -224,6 +224,15 @@
       <pubDate>Mon, 31 Oct 2016 22:04:29 +0000</pubDate>
       
       <guid>http://edelgrace.me/categories/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>http://edelgrace.me/categories/writing/</link>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://edelgrace.me/categories/writing/</guid>
       <description></description>
     </item>
     

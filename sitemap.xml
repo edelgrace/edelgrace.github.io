@@ -915,6 +915,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/blog/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/blogilates/</loc>
     <lastmod>2016-03-15T19:00:06+00:00</lastmod>
     <priority>0</priority>
@@ -923,12 +929,6 @@
   <url>
     <loc>http://edelgrace.me/tags/blogilates-beginners-calendar/</loc>
     <lastmod>2016-03-15T19:00:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -55,6 +55,41 @@
     <article>
       <div class="article">
 
+        <h3><a href="http://edelgrace.me/blog/python-cookies-and-requests/">Python: Cookies and Requests</a></h3>
+        <h4>Oct 29, 2016 | <a href="http://edelgrace.me/blog/python-cookies-and-requests/#disqus_thread">Comments</a></h4>
+        
+        <div class="tags">
+            <ul>
+              
+              <li><a href="/categories/knowledge-base">Knowledge Base</a></li>            
+              
+              <li><a href="/categories/programming">Programming</a></li>            
+              
+  
+              
+              <li><a href="/tags/python">#python</a></li>
+              
+              <li><a href="/tags/python-requests">#python: requests</a></li>
+              
+            </ul>
+        </div>
+
+        <pre>import requests
+
+cookie = r.cookies['cookie_name']
+cookie = { 'cookie_name': cookie }
+
+requests.post(url, cookies=cookie)</pre>
+
+
+      </div>
+    </article>
+
+    
+
+    <article>
+      <div class="article">
+
         <h3><a href="http://edelgrace.me/blog/python-parsing-xml/">Python: Parsing XML</a></h3>
         <h4>Oct 19, 2016 | <a href="http://edelgrace.me/blog/python-parsing-xml/#disqus_thread">Comments</a></h4>
         
@@ -165,58 +200,6 @@ root = tree.getroot()</pre>
         </div>
 
         <p><code>git push --mirror https://github.com/&lt;user&gt;/&lt;repo&gt;.git&lt;/repo&gt;&lt;/user&gt;</code></p>
-
-
-      </div>
-    </article>
-
-    
-
-    <article>
-      <div class="article">
-
-        <h3><a href="http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/">LFTP Fatal Error: Certificate verification</a></h3>
-        <h4>Oct 11, 2016 | <a href="http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/#disqus_thread">Comments</a></h4>
-        
-        <div class="tags">
-            <ul>
-              
-              <li><a href="/categories/internet">Internet</a></li>            
-              
-              <li><a href="/categories/programming">Programming</a></li>            
-              
-              <li><a href="/categories/technology">Technology</a></li>            
-              
-  
-              
-              <li><a href="/tags/git-ftp">#git-ftp</a></li>
-              
-              <li><a href="/tags/lftp">#lftp</a></li>
-              
-            </ul>
-        </div>
-
-        
-
-<h3 id="the-error">The error:</h3>
-
-<p><code class="multi">~$ git-ftp pull&lt;br /&gt;
-~$ cd: Fatal error: Certificate verification: certificate common name doesn&rsquo;t match requested host name ‘ftp.mazohyst.org’&lt;br /&gt;
-~$ mirror: Fatal error: Certificate verification: certificate common name doesn&rsquo;t match requested host name ‘ftp.mazohyst.org’</code></p>
-
-<h3 id="solution">Solution:</h3>
-
-<p>Edit <code>~/.lftp/rc</code> so that it contains <code>set ssl:check-hostname no</code>. What this does is pretty self explanatory. If the hostname in the certificate does not match the hostname you&rsquo;re attempting to connect to, it doesn&rsquo;t matter because it won&rsquo;t check for that in the first place.</p>
-
-<h3 id="the-context">The context:</h3>
-
-<p>I recently wanted to implement version control for my websites because all too often I think to myself, &ldquo;I wish I knew what a previous version of this file looked lik&rdquo;. So since I&rsquo;m on shared hosting and don&rsquo;t have my own server, I resorted to using <a href="https://github.com/git-ftp/git-ftp">git-ftp</a> for deploying my websites. So far, it&rsquo;s working great. However, I momentarily forgot I started using this and made some changes on one of my pages through cPanel. I tried pulling the latest pages using <code>git-ftp pull</code> and encountered this error.</p>
-
-<h3 id="sources">Sources:</h3>
-
-<ul>
-<li><a href="http://web.archive.org/web/20160330173659/http://www.versatilewebsolutions.com/blog/2014/04/lftp-ftps-and-certificate-verification.html">LFTP FTPS and Certificate Verification</a></li>
-</ul>
 
 
       </div>
@@ -399,6 +382,14 @@ root = tree.getroot()</pre>
 
     
 
+    <li><a href="/categories/video-games">video-games</a></li>
+
+    
+
+    
+
+    
+
     <li><a href="/categories/work">work</a></li>
 
     
@@ -448,14 +439,6 @@ root = tree.getroot()</pre>
     
 
     <li><a href="/categories/tech">tech</a></li>
-
-    
-
-    
-
-    
-
-    <li><a href="/categories/video-games">video-games</a></li>
 
     
 

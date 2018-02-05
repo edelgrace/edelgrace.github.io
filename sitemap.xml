@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/life-is-strange-the-tragedy-of-rachel-amber/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-blogger-hop-22/</loc>
     <lastmod>2018-02-04T00:00:00+00:00</lastmod>
   </url>
@@ -921,7 +926,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1208,6 +1213,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/life-is-strange/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/marina-and-the-diamonds/</loc>
     <lastmod>2017-01-25T00:39:00+00:00</lastmod>
     <priority>0</priority>
@@ -1377,7 +1388,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/video-games/</loc>
-    <lastmod>2017-02-26T19:34:32+00:00</lastmod>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1467,7 +1478,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

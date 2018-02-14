@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/book-review-the-unreal-and-the-real-vol-1-by-ursula-k-le-guin/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/january-2018-in-review/</loc>
     <lastmod>2018-02-08T00:00:00+00:00</lastmod>
   </url>
@@ -936,7 +941,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -966,7 +971,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/books/</loc>
-    <lastmod>2018-02-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1349,6 +1354,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/sci-fi/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/security/</loc>
     <lastmod>2016-06-07T03:26:11+00:00</lastmod>
     <priority>0</priority>
@@ -1393,6 +1404,12 @@
   <url>
     <loc>http://edelgrace.me/tags/ursula-k-le-guin/</loc>
     <lastmod>2018-01-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/urusla-k-le-guin/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1488,7 +1505,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

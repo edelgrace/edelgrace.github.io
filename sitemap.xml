@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/book-review-the-sky-is-yours-by-chandler-klang-smith/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-blogger-hop-23/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
   </url>
@@ -946,7 +951,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -976,7 +981,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/books/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -995,6 +1000,12 @@
   <url>
     <loc>http://edelgrace.me/tags/ccna/</loc>
     <lastmod>2016-06-04T06:07:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/chandler-klang-smith/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1061,6 +1072,12 @@
   <url>
     <loc>http://edelgrace.me/tags/fanlistings/</loc>
     <lastmod>2017-01-07T14:50:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/fantasy/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1510,7 +1527,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

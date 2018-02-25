@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/long-weekend-penguins-and-hacks/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-blogger-hop-24/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url>
@@ -956,7 +961,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1045,14 +1050,14 @@
   </url>
   
   <url>
-    <loc>http://edelgrace.me/tags/crochet/</loc>
-    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
+    <loc>http://edelgrace.me/categories/crochet/</loc>
+    <lastmod>2017-08-09T04:45:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://edelgrace.me/categories/crochet/</loc>
-    <lastmod>2017-08-09T04:45:26+00:00</lastmod>
+    <loc>http://edelgrace.me/tags/crochet/</loc>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1093,14 +1098,14 @@
   </url>
   
   <url>
-    <loc>http://edelgrace.me/tags/fitness/</loc>
-    <lastmod>2017-02-09T16:33:00+00:00</lastmod>
+    <loc>http://edelgrace.me/categories/fitness/</loc>
+    <lastmod>2016-03-15T19:00:06+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://edelgrace.me/categories/fitness/</loc>
-    <lastmod>2016-03-15T19:00:06+00:00</lastmod>
+    <loc>http://edelgrace.me/tags/fitness/</loc>
+    <lastmod>2017-02-09T16:33:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1111,14 +1116,14 @@
   </url>
   
   <url>
-    <loc>http://edelgrace.me/tags/food/</loc>
-    <lastmod>2017-01-08T18:00:21+00:00</lastmod>
+    <loc>http://edelgrace.me/categories/food/</loc>
+    <lastmod>2018-01-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://edelgrace.me/categories/food/</loc>
-    <lastmod>2018-01-22T00:00:00+00:00</lastmod>
+    <loc>http://edelgrace.me/tags/food/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1130,7 +1135,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/friends-and-family/</loc>
-    <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1167,6 +1172,12 @@
   <url>
     <loc>http://edelgrace.me/tags/ha-jin/</loc>
     <lastmod>2017-01-16T02:40:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/hackathon/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1399,6 +1410,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/swag/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/swap/</loc>
     <lastmod>2017-06-07T17:55:19+00:00</lastmod>
     <priority>0</priority>
@@ -1495,14 +1512,14 @@
   </url>
   
   <url>
-    <loc>http://edelgrace.me/tags/work/</loc>
-    <lastmod>2017-01-05T05:26:38+00:00</lastmod>
+    <loc>http://edelgrace.me/categories/work/</loc>
+    <lastmod>2016-10-31T22:04:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://edelgrace.me/categories/work/</loc>
-    <lastmod>2016-10-31T22:04:29+00:00</lastmod>
+    <loc>http://edelgrace.me/tags/work/</loc>
+    <lastmod>2017-01-05T05:26:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1531,8 +1548,14 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/zoo/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

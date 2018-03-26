@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/its-monday-what-are-you-reading/</loc>
+    <lastmod>2018-03-26T13:27:57-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-blogger-hop-28/</loc>
     <lastmod>2018-03-23T00:00:00+00:00</lastmod>
   </url>
@@ -986,7 +991,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-26T13:27:57-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1016,7 +1021,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/books/</loc>
-    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-26T13:27:57-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1537,6 +1542,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/what-are-you-reading-monday/</loc>
+    <lastmod>2018-03-26T13:27:57-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/work/</loc>
     <lastmod>2017-01-05T05:26:38+00:00</lastmod>
     <priority>0</priority>
@@ -1580,7 +1591,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-26T13:27:57-06:00</lastmod>
     <priority>0</priority>
   </url>
   

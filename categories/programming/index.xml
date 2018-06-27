@@ -72,38 +72,20 @@ There&amp;rsquo;s a concept called best first search. The basic example is trave
     
     <item>
       <title>Silly Mistakes</title>
-      <link>http://edelgrace.me/blog/silly-mistakes/</link>
+      <link>http://edelgrace.me/life/silly-mistakes/</link>
       <pubDate>Mon, 31 Oct 2016 22:04:29 +0000</pubDate>
       
-      <guid>http://edelgrace.me/blog/silly-mistakes/</guid>
+      <guid>http://edelgrace.me/life/silly-mistakes/</guid>
       <description>At work I&amp;rsquo;m writing a simple script in Python that pulls data from a sqlite database. I was doing some inserts and deletes and I was wondering why the database wasn&amp;rsquo;t changing. I tried printing out the queries and double checking that they were indeed correct syntax-wise. I traced my program line by line up to the point where queries were being executed. Finally, I turned to Google.
 Stackoverflow, of course, delivered.</description>
     </item>
     
     <item>
-      <title>Python: Cookies and Requests</title>
-      <link>http://edelgrace.me/blog/python-cookies-and-requests/</link>
-      <pubDate>Sat, 29 Oct 2016 01:47:03 +0000</pubDate>
-      
-      <guid>http://edelgrace.me/blog/python-cookies-and-requests/</guid>
-      <description>import requests cookie = r.cookies[&#39;cookie_name&#39;] cookie = { &#39;cookie_name&#39;: cookie } requests.post(url, cookies=cookie) </description>
-    </item>
-    
-    <item>
-      <title>Python: Parsing XML</title>
-      <link>http://edelgrace.me/blog/python-parsing-xml/</link>
-      <pubDate>Wed, 19 Oct 2016 01:56:22 +0000</pubDate>
-      
-      <guid>http://edelgrace.me/blog/python-parsing-xml/</guid>
-      <description>import xml.etree.Element as ET # from string root = ET.fromstring(string) # from file tree = ET.parase(file) root = tree.getroot() </description>
-    </item>
-    
-    <item>
       <title>LFTP Fatal Error: Certificate verification</title>
-      <link>http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/</link>
+      <link>http://edelgrace.me/life/lftp-fatal-error-certificate-verification/</link>
       <pubDate>Tue, 11 Oct 2016 01:48:31 +0000</pubDate>
       
-      <guid>http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/</guid>
+      <guid>http://edelgrace.me/life/lftp-fatal-error-certificate-verification/</guid>
       <description>The error: ~$ git-ftp pull&amp;lt;br /&amp;gt; ~$ cd: Fatal error: Certificate verification: certificate common name doesn&amp;rsquo;t match requested host name ‘ftp.mazohyst.org’&amp;lt;br /&amp;gt; ~$ mirror: Fatal error: Certificate verification: certificate common name doesn&amp;rsquo;t match requested host name ‘ftp.mazohyst.org’
 Solution: Edit ~/.lftp/rc so that it contains set ssl:check-hostname no. What this does is pretty self explanatory. If the hostname in the certificate does not match the hostname you&amp;rsquo;re attempting to connect to, it doesn&amp;rsquo;t matter because it won&amp;rsquo;t check for that in the first place.</description>
     </item>

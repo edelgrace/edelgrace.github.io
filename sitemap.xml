@@ -1838,6 +1838,11 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/blog/my-chemical-romance-in-concert/</loc>
+    <lastmod>2011-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/back-from-the-dead/</loc>
     <lastmod>2011-03-19T16:27:24+00:00</lastmod>
   </url>
@@ -2202,6 +2207,12 @@
   <url>
     <loc>http://edelgrace.me/tags/coffee/</loc>
     <lastmod>2017-01-08T18:00:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/concerts/</loc>
+    <lastmod>2011-04-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2681,7 +2692,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/my-chemical-romance/</loc>
-    <lastmod>2007-09-29T08:48:07+00:00</lastmod>
+    <lastmod>2011-04-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

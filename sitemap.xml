@@ -2349,8 +2349,14 @@
   </url>
   
   <url>
-    <loc>http://edelgrace.me/categories/filofax/</loc>
+    <loc>http://edelgrace.me/tags/filofax/</loc>
     <lastmod>2014-03-30T18:30:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/categories/filofax/</loc>
+    <lastmod>2014-03-09T23:08:07+00:00</lastmod>
     <priority>0</priority>
   </url>
   

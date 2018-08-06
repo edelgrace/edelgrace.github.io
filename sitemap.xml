@@ -2271,6 +2271,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/categories/crafters/</loc>
+    <lastmod>2017-06-07T17:55:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/categories/crafts/</loc>
     <lastmod>2018-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -2284,7 +2290,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/crochet/</loc>
-    <lastmod>2017-08-09T04:45:26+00:00</lastmod>
+    <lastmod>2017-03-05T20:13:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2579,6 +2585,12 @@
   <url>
     <loc>http://edelgrace.me/tags/knit/</loc>
     <lastmod>2017-09-24T19:06:29-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/knitting/</loc>
+    <lastmod>2017-08-03T13:35:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2997,12 +3009,6 @@
   </url>
   
   <url>
-    <loc>http://edelgrace.me/tags/swap/</loc>
-    <lastmod>2017-06-07T17:55:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://edelgrace.me/tags/</loc>
     <lastmod>2017-08-06T04:07:17+00:00</lastmod>
     <priority>0</priority>
@@ -3173,6 +3179,12 @@
   <url>
     <loc>http://edelgrace.me/tags/yarn-haul/</loc>
     <lastmod>2017-06-28T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/yarn-swap/</loc>
+    <lastmod>2017-06-07T17:55:19+00:00</lastmod>
     <priority>0</priority>
   </url>
   

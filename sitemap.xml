@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/25-before-25-update-2/</loc>
+    <lastmod>2018-08-08T13:25:42-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/book-review-hard-boiled-wonderland-and-the-end-of-the-world-by-haruki-murakami/</loc>
     <lastmod>2018-08-06T00:00:00+00:00</lastmod>
   </url>
@@ -2099,6 +2104,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/25-before-25/</loc>
+    <lastmod>2018-08-08T13:25:42-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/ai/</loc>
     <lastmod>2017-01-02T06:40:16+00:00</lastmod>
     <priority>0</priority>
@@ -2176,7 +2187,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-08T13:25:42-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2632,7 +2643,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/life/</loc>
-    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-08T13:25:42-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3184,7 +3195,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-08T13:25:42-06:00</lastmod>
     <priority>0</priority>
   </url>
   

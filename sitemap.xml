@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/2018-mid-year-stats/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-blogger-hop-48/</loc>
     <lastmod>2018-08-10T00:00:00+00:00</lastmod>
   </url>
@@ -2192,7 +2197,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2648,7 +2653,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/life/</loc>
-    <lastmod>2018-08-08T13:25:42-06:00</lastmod>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2815,6 +2820,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/phone/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/planner/</loc>
     <lastmod>2015-09-08T00:02:02+00:00</lastmod>
     <priority>0</priority>
@@ -2959,6 +2970,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/sleep/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/categories/snippets/</loc>
     <lastmod>2016-10-19T01:46:26+00:00</lastmod>
     <priority>0</priority>
@@ -2973,6 +2990,18 @@
   <url>
     <loc>http://edelgrace.me/tags/stationery/</loc>
     <lastmod>2015-08-20T20:19:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/stats/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/steps/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3200,7 +3229,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

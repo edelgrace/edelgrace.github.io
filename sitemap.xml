@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/book-review-roadside-picnic-by-boris-and-arkady-strugatsky/</loc>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-blogger-hop-51/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
   </url>
@@ -2175,6 +2180,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/arkady-strugatsky/</loc>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/art/</loc>
     <lastmod>2017-01-07T07:05:00+00:00</lastmod>
     <priority>0</priority>
@@ -2212,7 +2223,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2236,7 +2247,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/book-review/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2248,7 +2259,13 @@
   
   <url>
     <loc>http://edelgrace.me/categories/books/</loc>
-    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/boris-strugatsky/</loc>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2914,7 +2931,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/review/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2968,7 +2985,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/science-fiction/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3017,6 +3034,12 @@
   <url>
     <loc>http://edelgrace.me/tags/steps/</loc>
     <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/strugatsky-brothers/</loc>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3106,7 +3129,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/ursula-k-le-guin/</loc>
-    <lastmod>2018-01-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3244,7 +3267,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

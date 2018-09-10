@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/book-review-thousand-cranes-by-yasunari-kawabata/</loc>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-blogger-hop-52/</loc>
     <lastmod>2018-09-07T00:00:00+00:00</lastmod>
   </url>
@@ -2228,7 +2233,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2252,7 +2257,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/book-review/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2264,7 +2269,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/books/</loc>
-    <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2936,7 +2941,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/review/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3259,6 +3264,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/yasunari-kawabata/</loc>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/yuzuru-hanyu/</loc>
     <lastmod>2014-03-06T23:49:08+00:00</lastmod>
     <priority>0</priority>
@@ -3272,7 +3283,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

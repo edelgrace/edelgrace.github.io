@@ -55,6 +55,58 @@
     <article>
       <div class="article">
 
+        <h3><a href="http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/">LFTP Fatal Error: Certificate verification</a></h3>
+        <h4>Oct 11, 2016 | <a href="http://edelgrace.me/blog/lftp-fatal-error-certificate-verification/#disqus_thread">Comments</a></h4>
+        
+        <div class="tags">
+            <ul>
+              
+              <li><a href="/categories/internet">Internet</a></li>            
+              
+              <li><a href="/categories/programming">Programming</a></li>            
+              
+              <li><a href="/categories/technology">Technology</a></li>            
+              
+  
+              
+              <li><a href="/tags/git-ftp">#git-ftp</a></li>
+              
+              <li><a href="/tags/lftp">#lftp</a></li>
+              
+            </ul>
+        </div>
+
+        
+
+<h3 id="the-error">The error:</h3>
+
+<p><code class="multi">~$ git-ftp pull&lt;br /&gt;
+~$ cd: Fatal error: Certificate verification: certificate common name doesn&rsquo;t match requested host name ‘ftp.mazohyst.org’&lt;br /&gt;
+~$ mirror: Fatal error: Certificate verification: certificate common name doesn&rsquo;t match requested host name ‘ftp.mazohyst.org’</code></p>
+
+<h3 id="solution">Solution:</h3>
+
+<p>Edit <code>~/.lftp/rc</code> so that it contains <code>set ssl:check-hostname no</code>. What this does is pretty self explanatory. If the hostname in the certificate does not match the hostname you&rsquo;re attempting to connect to, it doesn&rsquo;t matter because it won&rsquo;t check for that in the first place.</p>
+
+<h3 id="the-context">The context:</h3>
+
+<p>I recently wanted to implement version control for my websites because all too often I think to myself, &ldquo;I wish I knew what a previous version of this file looked lik&rdquo;. So since I&rsquo;m on shared hosting and don&rsquo;t have my own server, I resorted to using <a href="https://github.com/git-ftp/git-ftp">git-ftp</a> for deploying my websites. So far, it&rsquo;s working great. However, I momentarily forgot I started using this and made some changes on one of my pages through cPanel. I tried pulling the latest pages using <code>git-ftp pull</code> and encountered this error.</p>
+
+<h3 id="sources">Sources:</h3>
+
+<ul>
+<li><a href="http://web.archive.org/web/20160330173659/http://www.versatilewebsolutions.com/blog/2014/04/lftp-ftps-and-certificate-verification.html">LFTP FTPS and Certificate Verification</a></li>
+</ul>
+
+
+      </div>
+    </article>
+
+    
+
+    <article>
+      <div class="article">
+
         <h3><a href="http://edelgrace.me/blog/bought-some-new-music/">Bought Some New Music!</a></h3>
         <h4>Oct 9, 2016 | <a href="http://edelgrace.me/blog/bought-some-new-music/#disqus_thread">Comments</a></h4>
         
@@ -1043,49 +1095,6 @@
 </tr>
 </tbody>
 </table>
-
-
-      </div>
-    </article>
-
-    
-
-    <article>
-      <div class="article">
-
-        <h3><a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-28/">Blogilates Beginner’s Workout Calendar 2.0: Day 28</a></h3>
-        <h4>Mar 15, 2016 | <a href="http://edelgrace.me/blog/blogilates-beginners-workout-calendar-2-0-day-28/#disqus_thread">Comments</a></h4>
-        
-        <div class="tags">
-            <ul>
-              
-              <li><a href="/categories/fitness">Fitness</a></li>            
-              
-              <li><a href="/categories/life">Life</a></li>            
-              
-  
-              
-              <li><a href="/tags/blogilates">#blogilates</a></li>
-              
-              <li><a href="/tags/blogilates-beginners-calendar">#blogilates beginners calendar</a></li>
-              
-            </ul>
-        </div>
-
-        
-
-<p><strong>Disclaimer:</strong> This &ldquo;review&rdquo;/blog series is NOT sponsored in any way and all opinions are entirely of my own.</p>
-
-<p><a href="http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2.png" rel="attachment wp-att-11076"><img src="http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png" alt="blogilates-beginners-calender-2" width="1024" height="806" class="alignnone size-large wp-image-11076" srcset="http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-1024x806.png 1024w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-300x236.png 300w, http://erzadel.net/blog/wp-content/uploads/2016/02/blogilates-beginners-calender-2-768x604.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-
-<h3 id="day-28-rest-day">Day 28: Rest Day</h3>
-
-<p>Oh my goodness, today is the last day of the fitness calendar! I can&rsquo;t believe I made it! I didn&rsquo;t make this cookie (I haven&rsquo;t made any of the rest day recipes) but like with the rest of the recipes, I would love to try this eventually!</p>
-
-<h3 id="video-1-easiest-cookie-in-the-world">Video 1: Easiest Cookie in the World</h3>
-
-<div class="flex-video">
-</div>
 
 
       </div>

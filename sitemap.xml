@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/blog/album-reaction-vaxis-act-i-unheavenly-creatures-by-coheed-and-cambria/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-review-the-white-book-by-han-kang/</loc>
     <lastmod>2018-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -2183,10 +2188,6 @@
   </url>
   
   <url>
-    <loc>http://edelgrace.me/blog/2018-10-10-album-reaction-vaxis-i-unheavenly-creatures-by-coheed-and-cambria/</loc>
-  </url>
-  
-  <url>
     <loc>http://edelgrace.me/tags/#milliesbookclub/</loc>
     <lastmod>2017-08-06T04:07:17+00:00</lastmod>
     <priority>0</priority>
@@ -2207,6 +2208,12 @@
   <url>
     <loc>http://edelgrace.me/tags/album/</loc>
     <lastmod>2017-01-25T00:39:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/album-reaction/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2282,7 +2289,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2366,13 +2373,13 @@
   
   <url>
     <loc>http://edelgrace.me/tags/coheed-and-cambria/</loc>
-    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://edelgrace.me/tags/concerts/</loc>
-    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2840,7 +2847,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/music/</loc>
-    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3344,7 +3351,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

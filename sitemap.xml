@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/book-review-definitely-maybe-by-arkady-and-boris-strugatsky/</loc>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-blogger-hop-57/</loc>
     <lastmod>2018-10-12T00:00:00+00:00</lastmod>
   </url>
@@ -2257,6 +2262,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/arkady-and-boris-strugatsky/</loc>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/art/</loc>
     <lastmod>2017-01-07T07:05:00+00:00</lastmod>
     <priority>0</priority>
@@ -2294,7 +2305,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2318,7 +2329,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/book-review/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2330,7 +2341,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/books/</loc>
-    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3014,7 +3025,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/review/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3356,7 +3367,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

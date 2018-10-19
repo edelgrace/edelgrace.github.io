@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/book-blogger-hop-58/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/blog/my-week-in-music-1/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/wip-wednesday-snowfall-mittens/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url>
@@ -2310,7 +2320,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2328,7 +2338,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/book-blogger-hop/</loc>
-    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2346,13 +2356,19 @@
   
   <url>
     <loc>http://edelgrace.me/categories/books/</loc>
-    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://edelgrace.me/tags/boris-strugatsky/</loc>
     <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/boy-pablo/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2387,6 +2403,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/childish-gambino/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/coffee/</loc>
     <lastmod>2017-01-08T18:00:21+00:00</lastmod>
     <priority>0</priority>
@@ -2394,7 +2416,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/coheed-and-cambria/</loc>
-    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2443,6 +2465,12 @@
   <url>
     <loc>http://edelgrace.me/tags/dont-worry-i-recycle-but-still/</loc>
     <lastmod>2015-09-13T03:08:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/erkan-yilmaz/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2521,6 +2549,12 @@
   <url>
     <loc>http://edelgrace.me/categories/food/</loc>
     <lastmod>2018-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/frank-carter--the-rattlesnakes/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2705,6 +2739,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/joji/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/categories/jr-high/</loc>
     <lastmod>2009-06-29T02:17:47+00:00</lastmod>
     <priority>0</priority>
@@ -2874,7 +2914,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/music/</loc>
-    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2977,6 +3017,12 @@
   <url>
     <loc>http://edelgrace.me/categories/planning/</loc>
     <lastmod>2015-11-12T16:24:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/plenty/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3101,8 +3147,20 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/sharon-van-etten/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/shawl/</loc>
     <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/shiina-ringo/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3199,6 +3257,12 @@
   <url>
     <loc>http://edelgrace.me/categories/technology/</loc>
     <lastmod>2017-03-17T18:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/the-front-bottoms/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3384,7 +3448,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

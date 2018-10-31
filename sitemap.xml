@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/concert-bucketlist/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/my-week-in-music-3/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
   </url>
@@ -2274,7 +2279,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/alexisonfire/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2355,8 +2360,14 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/bjork/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2458,13 +2469,13 @@
   
   <url>
     <loc>http://edelgrace.me/tags/coheed-and-cambria/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://edelgrace.me/tags/concerts/</loc>
-    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2507,6 +2518,12 @@
   <url>
     <loc>http://edelgrace.me/tags/daughter/</loc>
     <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/dir-en-grey/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2656,7 +2673,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/green-day/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2800,7 +2817,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/joanna-newsom/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2878,7 +2895,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/laruku/</loc>
-    <lastmod>2007-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3010,7 +3027,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/music/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3381,6 +3398,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/the-strokes/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/this-picture-makes-my-handwriting-on-the-right-look-nicer-than-it-is/</loc>
     <lastmod>2015-09-13T03:08:37+00:00</lastmod>
     <priority>0</priority>
@@ -3388,7 +3411,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/thrice/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3425,6 +3448,12 @@
   <url>
     <loc>http://edelgrace.me/tags/urusla-k-le-guin/</loc>
     <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/tags/utada-hikaru/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3574,7 +3603,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

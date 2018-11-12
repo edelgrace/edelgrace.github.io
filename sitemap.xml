@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/book-review-butterfield-8-by-john-o-hara/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/book-blogger-hop-61/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -2387,7 +2392,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2411,7 +2416,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/book-review/</loc>
-    <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2423,7 +2428,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/books/</loc>
-    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2860,6 +2865,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/john-o-hara/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/joji/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -3251,7 +3262,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/review/</loc>
-    <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3647,7 +3658,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

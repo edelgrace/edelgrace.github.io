@@ -55,184 +55,42 @@
     <article>
       <div class="article">
 
-        <h3><a href="http://edelgrace.me/blog/til-igmp/">TIL: IGMP</a></h3>
-        <h4>Jan 6, 2017 | <a href="http://edelgrace.me/blog/til-igmp/#disqus_thread">Comments</a></h4>
+        <h3><a href="http://edelgrace.me/blog/grade-niners/">Grade Niners</a></h3>
+        <h4>Jan 22, 2007 | <a href="http://edelgrace.me/blog/grade-niners/#disqus_thread">Comments</a></h4>
         
         <div class="tags">
             <ul>
               
-              <li><a href="/categories/networking">Networking</a></li>            
+              <li><a href="/categories/life">life</a></li>            
               
   
               
-              <li><a href="/tags/igmp">#igmp</a></li>
+              <li><a href="/tags/music">#music</a></li>
+              
+              <li><a href="/tags/green-day">#green day</a></li>
+              
+              <li><a href="/tags/school">#school</a></li>
               
             </ul>
         </div>
 
-        <p>Today I learned about IGMP, which stands for Internet Group Message Protocol. There are three different ways packets are sent out to other devices. There&rsquo;s unicast, which just sends a packet to one specific device. Then there&rsquo;s broadcast, which sends packets to all the devices that is in the network. Lastly, there&rsquo;s multicast. Multicast sends packets to more than one device but not all the devices.</p>
+        <p>My locker&rsquo;s right next to the band room, and grade niners are constantly standing around my locker. The grade niners like to listen to this guy play the drums every single lunch period. I was opening my locker, and the guy who plays the drums was looking at my locker. They saw my Billie Joe Armstrong poster (which unfortunately does not exist anymore because one of my friends tore it up).</p>
 
-<p>If a device wants to be part of a multicast group, it sends out an IGMP packet, or more specifically, an IGMP join packet. The join packet expresses the device&rsquo;s desire to subscribe to the multicast feed.</p>
+<p>Grade niner 1: So you like Green Day?</p>
 
-<p>Usually, a switch is the receiving end of this join request. If IGMP snooping is enabled on the switch, it will listen for requests and add the device to the group.</p>
+<p>Me: Yeah</p>
 
+<p>Grade niner 1: are they your favorite band?</p>
 
-      </div>
-    </article>
+<p>Me: Yeah</p>
 
-    
+<p>Grade niner: What&rsquo;s your favorite song?</p>
 
-    <article>
-      <div class="article">
+<p>Grade niner 2: <em>Laughs</em>. American Idiot.</p>
 
-        <h3><a href="http://edelgrace.me/blog/til-adding-policies-in-cisco-firewalls/">TIL: Adding Policies in Cisco Firewalls</a></h3>
-        <h4>Jan 5, 2017 | <a href="http://edelgrace.me/blog/til-adding-policies-in-cisco-firewalls/#disqus_thread">Comments</a></h4>
-        
-        <div class="tags">
-            <ul>
-              
-              <li><a href="/categories/networking">Networking</a></li>            
-              
-  
-              
-              <li><a href="/tags/firewalls">#firewalls</a></li>
-              
-              <li><a href="/tags/work">#work</a></li>
-              
-            </ul>
-        </div>
+<p>Me: Having A Blast. (I just chose a random song) It&rsquo;s an old song.</p>
 
-        <p>Identify traffic with an access-list</p>
-
-<pre>access-list <em>acl-name</em> permit ip <em>source</em> <em>destination</em> dscp <em>dscp-value</em></pre>
-
-<p>Apply the access-list with the dscp value to an interfact</p>
-
-<pre>class-map match-all <em>interface</em>
-match ip dscp <em>dscp-value</em></pre>
-
-<p>Apply the policy</p>
-
-<pre>policy-map <em>map-name</em>
-    class <em>class-name</em>
-        [bandwidth <em>bandwidth-value</em>]
-        [priority <em>priority-level</em>]
-        set ip dscp <em>dscp-value</em></pre>
-
-<p>Today at work I was going over firewalls. We want to check the configuration of the firewalls and compare them to our QoS standards. I&rsquo;m not too familiar with how policies and QoS are implemented on Cisco devices so it was pretty interesting to learn.</p>
-
-
-      </div>
-    </article>
-
-    
-
-    <article>
-      <div class="article">
-
-        <h3><a href="http://edelgrace.me/blog/back-to-work/">Back to Work…</a></h3>
-        <h4>Jan 4, 2017 | <a href="http://edelgrace.me/blog/back-to-work/#disqus_thread">Comments</a></h4>
-        
-        <div class="tags">
-            <ul>
-              
-              <li><a href="/categories/books">Books</a></li>            
-              
-              <li><a href="/categories/life">Life</a></li>            
-              
-  
-              
-              <li><a href="/tags/friends">#friends</a></li>
-              
-              <li><a href="/tags/work">#work</a></li>
-              
-            </ul>
-        </div>
-
-        <p>The holidays are officially over, for I went back to work today. It was a bit of a slow day. I got my internship extended, however they basically treated me as a new hire since my contract ended in December. So I&rsquo;m starting from scratch, essentially. I had no laptop, no e-mail, no account to login into any computer connected to the company&rsquo;s network&#8230; Kinda rough.</p>
-
-<p>However, I did manage to do some small tasks that didn&rsquo;t require the use of a computer.</p>
-
-<p>I&rsquo;m currently doing an inventory of our gear and before I left for holidays, I was labelling items that needed to be recycled or sold. Apparently some of the labels fell off so I reinforced them all with tape. Since I was gone for two weeks, there were a couple of new devices in our inventory so I took note of those as well.</p>
-
-<p>Some of the devices are strewn about the place with no order so I attempted to move some of them into groups of device types. For example, some of the supervisor engines were mixed with the switches when there was a shelf dedicated solely for engines.</p>
-
-<p>We use bins to store smaller items. Some of the bins didn&rsquo;t have any labels so I had to make some in order for people to know where everything is. I also labelled some ambiguos boxes. It&rsquo;s a big guessing game looking at them all.</p>
-
-<p>I received a package from Meraki containing a Meraki access point. Pretty cool! I thought that maybe I needed to do something with it for work so I read the manual but it turned out that it&rsquo;s mine to keep. It&rsquo;s super sleek.</p>
-
-<p>In my co-op, I have to hand in reports in order to get credit. One of the first things I have to hand in during the start of the work term is learning objectives. I spent a good amount of time trying to think up of what I wanted to accomplish during this work term. I&rsquo;m still pretty undecided as I don&rsquo;t want to repeat myself from last term&rsquo;s objectives.</p>
-
-<p>After work, I went over to my SO&rsquo;s place. While he played Vermintide with friends, I continued reading <em>Buried in Books</em> by Julie Rugg. Basically it&rsquo;s a collection of quotes regarding books and reading. I love reading books about books and reading. What Ilove more is reading a book about books that are about books and reading.</p>
-
-<p>After that we settled in for some quiet time to work on a puzzle I bought him for Christmas. It&rsquo;s a big 1000 piece puzzle of a volcano. I chose it because it was cool and dramatic and it was more than two colours. I guess some people like the challenge of putting together a puzzle of the ocean and the sky but not us.</p>
-
-<p>Anyway, that&rsquo;s my day in a nutshell. A very chill and relaxing day. Now I&rsquo;m hoping to tinker with the access point I received, work out a little, and study a bit for my CCNA before I hit the hay.</p>
-
-
-      </div>
-    </article>
-
-    
-
-    <article>
-      <div class="article">
-
-        <h3><a href="http://edelgrace.me/blog/til-how-to-add-a-mysql-user/">TIL: How to Add a MySQL User</a></h3>
-        <h4>Jan 3, 2017 | <a href="http://edelgrace.me/blog/til-how-to-add-a-mysql-user/#disqus_thread">Comments</a></h4>
-        
-        <div class="tags">
-            <ul>
-              
-              <li><a href="/categories/programming">Programming</a></li>            
-              
-  
-              
-              <li><a href="/tags/mysql">#mysql</a></li>
-              
-              <li><a href="/tags/vps">#vps</a></li>
-              
-            </ul>
-        </div>
-
-        <pre>CREATE USER 'user'@'server' IDENTIFIED BY 'PASSWORD';
-GRANT PRIVILEGES ON database.table TO 'user'@'server';</pre>
-
-<p>I recently bought a VPS from Ramnode and started tinkering on it. I needed to create a database for my fanlistings. Back when I was on shared hosting, I would use cPanel and phpMyAdmin to do all that. This is admittedly another TIL that I didn&rsquo;t learn today but, rather, relearned today because the information slipped my mind. Maybe I need to rename this little segment to &ldquo;TIRL.&rdquo;</p>
-
-
-      </div>
-    </article>
-
-    
-
-    <article>
-      <div class="article">
-
-        <h3><a href="http://edelgrace.me/blog/til-best-first-search-and-local-maxima-problem/">TIL: Best First Search and Local Maxima Problem</a></h3>
-        <h4>Jan 2, 2017 | <a href="http://edelgrace.me/blog/til-best-first-search-and-local-maxima-problem/#disqus_thread">Comments</a></h4>
-        
-        <div class="tags">
-            <ul>
-              
-              <li><a href="/categories/programming">Programming</a></li>            
-              
-  
-              
-              <li><a href="/tags/ai">#AI</a></li>
-              
-              <li><a href="/tags/algorithms">#algorithms</a></li>
-              
-              <li><a href="/tags/til">#TIL</a></li>
-              
-            </ul>
-        </div>
-
-        <p>Okay, this wasn&rsquo;t the first time I learned about this but I did relearn this while talking to my SO about the AI textbook he was reading.</p>
-
-<p>There&rsquo;s a concept called best first search. The basic example is traversing through a tree. Each node that the algorithm visits, it adds the node to an array solely for visited nodes. It keeps another array for nodes it hasn&rsquo;t yet visited. While it traverses through the nodes, it sorts the visited node array so that the best node is at the start of the array.</p>
-
-<p>This does pose the problem of local maxima. The best search first algorithm gives the best result at that moment for the current search space. So it doesn&rsquo;t focus on efficiency but reducing the search space. This doesn&rsquo;t guarantee the best solution at any point in the search but the best solution for that point of time in the search (if that makes any sense at all).</p>
+<p>Then I ran away, because Grade niners scare me (I am only in grade seven) and my friend was calling me. Grade niners scare me!</p>
 
 
       </div>
@@ -245,11 +103,9 @@ GRANT PRIVILEGES ON database.table TO 'user'@'server';</pre>
   <div class="pagination">
     
     
-    <a class="prev" href="/blog/page/38/">Newer</a>
+    <a class="prev" href="/blog/page/90/">Newer</a>
     
 
-    
-    <a class ="next" href="/blog/page/40/">Older</a>
     
 
   </div>

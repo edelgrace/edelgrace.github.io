@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edelgrace.me/blog/book-blogger-hop-64/</loc>
+    <lastmod>2018-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/blog/my-week-in-music-7/</loc>
     <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edelgrace.me/blog/book-review-168-hours-by-laura-vanderkam/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -2422,7 +2432,7 @@
   
   <url>
     <loc>http://edelgrace.me/blog/</loc>
-    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2440,13 +2450,13 @@
   
   <url>
     <loc>http://edelgrace.me/tags/book-blogger-hop/</loc>
-    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://edelgrace.me/tags/book-review/</loc>
-    <lastmod>2018-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2458,7 +2468,7 @@
   
   <url>
     <loc>http://edelgrace.me/categories/books/</loc>
-    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2985,6 +2995,12 @@
   </url>
   
   <url>
+    <loc>http://edelgrace.me/tags/laura-vanderkam/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://edelgrace.me/tags/learning-guitar/</loc>
     <lastmod>2017-02-20T01:42:56+00:00</lastmod>
     <priority>0</priority>
@@ -3310,7 +3326,7 @@
   
   <url>
     <loc>http://edelgrace.me/tags/review/</loc>
-    <lastmod>2018-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3742,7 +3758,7 @@
   
   <url>
     <loc>http://edelgrace.me/</loc>
-    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

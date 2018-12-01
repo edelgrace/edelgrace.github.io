@@ -55,6 +55,40 @@
     <article>
       <div class="article">
 
+        <h3><a href="http://edelgrace.me/blog/silly-mistakes/">Silly Mistakes</a></h3>
+        <h4>Oct 31, 2016 | <a href="http://edelgrace.me/blog/silly-mistakes/#disqus_thread">Comments</a></h4>
+        
+        <div class="tags">
+            <ul>
+              
+              <li><a href="/categories/programming">Programming</a></li>            
+              
+              <li><a href="/categories/work">Work</a></li>            
+              
+  
+              
+            </ul>
+        </div>
+
+        <p>At work I&rsquo;m writing a simple script in Python that pulls data from a sqlite database. I was doing some inserts and deletes and I was wondering why the database wasn&rsquo;t changing. I tried printing out the queries and double checking that they were indeed correct syntax-wise. I traced my program line by line up to the point where queries were being executed. Finally, I turned to Google.</p>
+
+<p>Stackoverflow, of course, delivered. &ldquo;Did you commit your database?&rdquo;</p>
+
+<p>Oh. My. God.</p>
+
+<p>I forgot to save the database after making all the changes. For some reason I was grinning ear to ear, thinking &ldquo;I&rsquo;m so stupid&rdquo; in my head. The project manager was walking by my desk and looked at me weirdly.</p>
+
+<p>I know for sure I&rsquo;m not making that mistake again!</p>
+
+
+      </div>
+    </article>
+
+    
+
+    <article>
+      <div class="article">
+
         <h3><a href="http://edelgrace.me/blog/overheard-at-work-1/">Overheard at Work #1</a></h3>
         <h4>Oct 19, 2016 | <a href="http://edelgrace.me/blog/overheard-at-work-1/#disqus_thread">Comments</a></h4>
         
@@ -247,42 +281,6 @@
 <p>Honestly, it seems to me like paying the ransom was the smart choice. Thousands of users were affected by this attack and it&rsquo;s probably costing them a lot more not having their systems than to pay the money. It&rsquo;s probably the easiest route. I haven&rsquo;t done much research on it but apparently FBI recommends this. It’s better if you don’t pay the ransom but if you’re not tech savvy or the stakes are too high (but not like top secret government stakes), it’s probably a good idea.</p>
 
 <p>Also, personal anecdote. I&rsquo;ve had an instance of &ldquo;ransomeware.&rdquo; It was more like adware ransomware. I was browsing around and all of a sudden my screen flashed and accused me of a crime and asked me to pay a fine. I read through it several times and I froze a bit. I was innocent of the crime (of course) but I was worried that maybe it was something that could easily look like I commited it (think like authors who joke about being on some kind of list for researching murder methods for a book). But I calmly opened up my phone and looked up the message. Common ransomware. So I safely ignored it. Thank goodness because the amount they were asking was easily ten times more than what&rsquo;s in my bank account.</p>
-
-
-      </div>
-    </article>
-
-    
-
-    <article>
-      <div class="article">
-
-        <h3><a href="http://edelgrace.me/blog/security-by-obscurity/">Security By Obscurity: Just Hide It?</a></h3>
-        <h4>Jun 7, 2016 | <a href="http://edelgrace.me/blog/security-by-obscurity/#disqus_thread">Comments</a></h4>
-        
-        <div class="tags">
-            <ul>
-              
-              <li><a href="/categories/technology">Technology</a></li>            
-              
-  
-              
-              <li><a href="/tags/security">#security</a></li>
-              
-            </ul>
-        </div>
-
-        <p>Last semester I took an introductory course to information security. One of the concepts we touched on was &ldquo;security by obscurity.&rdquo; Basically what that means is if no one is aware of something, they can&rsquo;t possibly break into it. For example, hiding your diary is a form of security by obscurity. Of course, this has it flaws. There is always the possibility that someone could somehow stumble upon your diary by accident. There might people actively looking for something valuable to you but they won&rsquo;t know what it is until they find it. Notice I didn&rsquo;t mention &ldquo;if&rdquo; they find it. It&rsquo;s always a good practice to assume that they will find it. This is one of the reasons why security by obscurity is not ideal.</p>
-
-<p>Truth be told, I use security by obscurity. The diary analogy I used was something that I actually do. Now, my mom loves to poke around and I still live with her. She has read my diaries in the past so it&rsquo;s not far-fetched that she would find my diary one day and read it. This is why I don&rsquo;t use it as my only form of security. My journal entries are either about really mundane stuff or encrypted with <a href="http://www.ccelian.com/concepca.html">Elian script</a>. So unless my mother is good at cracking ciphers (which I highly doubt as English is her second language and frequency analysis is probably lost on her), I can safely assume that my secrets are safe with me.</p>
-
-<p>The reason why I suddenly started thinking about this is because I have a project that I&rsquo;ve been working on. I&rsquo;ve been trying to build a book management script. Right now I&rsquo;m just finishing up simple features for the admin panel such as tagging a book, adding a review to a book, editing author names, etc. All of this is currently in a folder with an obscure name. At first I thought that if my admin folder wasn&rsquo;t named something obvious like &ldquo;admin,&rdquo; I would less likely have a security breach. Who would want to hack my tiny and unpopular websites anyway? Then I realized, wait, that&rsquo;s a really bad idea.</p>
-
-<p>Curious, I looked up if there was a way to discover folders that were not explicitly linked publically. I was not surprised when I saw that such a way does indeed exist. In fact, there are several ways (or programs) to do this. Software like <a href="https://pentest-tools.com/website-vulnerability-scanning/discover-hidden-directories-and-files">URL Fuzzer</a> and <a href="http://git.kali.org/gitweb/?p=packages/dirbuster.git;a=summary">DirBuster</a> utilize a method called fuzzing. In my introductory class, we would classify this as a brute force method. What fuzzing does is try any possible number of combinations in order to find a weakness. In this case, it tries to find out if a folder exists. Specifically, DirBuster goes through a list of words (have not checked if it includes random strings or just common words) and appends them to a URL. Depending on the HTTP status code (things like 404 not found or 403 forbidden), it can determine if a folder exists on the website or not.</p>
-
-<p>So, knowing this, I could still use security by obscurity. However, like my diary, I plan to implement other layers of security. Whether or not it will increase security or just give it security it didn’t have in the first place, I’m not sure (entropy wasn&rsquo;t my strong point in my information security course). But I am sure that leaving it as a randomly named folder is not the way to go. I know how to do simple PHP sessions with a login but only with matching the submitted password with a plaintext password in a database. That&rsquo;s a whole other realm of security issues so I&rsquo;m going to start reading up on hashing passwords in PHP. I&rsquo;ve poked around some open source scripts and have found MD5 hash functions so that&rsquo;s probably what I&rsquo;m aiming for. Honestly, I&rsquo;m not well-versed in web security specifically (other than SQL injections are bad and you have to sanitize them) but that’s why I’m still learning.</p>
-
-<p>So the next time you think you’re just going to hide something and think you’ll be fine, you probably will be but it’s better if you combine it with some other security technique especially if it contains sensitive information.</p>
 
 
       </div>
@@ -607,6 +605,9 @@
   
 
   <select id="archives">
+
+  
+    <option value="/archive/#Dec-2018">Dec-2018</option>
 
   
     <option value="/archive/#Nov-2018">Nov-2018</option>
